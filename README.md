@@ -1,8 +1,8 @@
 bitcamp.github.io
 =================
 #What you should know
-1. don't talk about gumby.
-2. don't talk about gumby.
+1. you don't talk about gumby.
+2. you don't talk about gumby.
 3. if someone says stop using gumby, they should stop.
 4. multiple preprocessing
 5. grunt better be the only thing watching in the command line.
