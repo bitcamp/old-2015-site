@@ -10,4 +10,4 @@ bitcamp.github.io
 7. development will go on as long as it needs to.
 8. if this is your first time using github you HAVE to contribute.
 =================
-ps: [Preview the website here.](gitcamp.github.io)
+ps: [Preview the website here.](http://bitcamp.github.io)
