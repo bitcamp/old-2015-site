@@ -9,3 +9,5 @@ bitcamp.github.io
 6. no scss or sass in the public folder
 7. development will go on as long as it needs to.
 8. if this is your first time using github you HAVE to contribute.
+=================
+ps: [Preview the website here.](gitcamp.github.io)
