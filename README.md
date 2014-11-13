@@ -9,5 +9,8 @@ bitcamp.github.io
 6. no scss or sass in the public folder
 7. development will go on as long as it needs to.
 8. if this is your first time using github you HAVE to contribute.
+
+##Install: 
+make sure you have [compass](http://snugug.com/musings/installing-sass-and-compass-across-all-platform) and [breakpoint-sass](https://github.com/at-import/breakpoint/wiki/Installation#installation) installed. 
 =================
 ps: [Preview the website here.](http://bitcamp.github.io)

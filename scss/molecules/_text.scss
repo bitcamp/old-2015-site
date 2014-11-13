@@ -1,0 +1,8 @@
+.wrapper-main{
+	div{
+		@include cf();
+	}
+	p{
+		@include column(1/2, $offset:1/4);
+	}
+}

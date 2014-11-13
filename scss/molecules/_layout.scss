@@ -1,0 +1,22 @@
+.wrapper-main{
+	@include center(960px,1);
+	text-align: center;	
+	ul.sponsors, ul.social-feed{
+		li{
+			@include column(1/3,$cycle:3);
+			@include breakpoint($bp-med){
+				@include column(1/6,$cycle:6,$uncycle:3);
+			}
+			img{
+				max-width: 100%;
+			}
+		}
+	}
+}
+header{
+	@include center(620px,2);
+	text-align: center;
+	div{
+	 @include center(465px);
+	}
+}
