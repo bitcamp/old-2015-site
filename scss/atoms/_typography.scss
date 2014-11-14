@@ -1,3 +1,6 @@
+html{
+	font-size: 18px;
+}
 body{
 	font-family: $font-secondary;
 	@include font-size(1, medium);
@@ -29,5 +32,15 @@ input[type="submit"], .btn{
 	@include font-size(1, medium);
 	font-family: $font-secondary;
 	color: #fff;
+	text-decoration: none;
+}
+small{
+	@include font-size(1, medium);
+	color: $medium-blue;
+}
+a{
+	@include font-size(1, medium);
+	color: $medium-blue;
+	font-weight: bold;
 	text-decoration: none;
 }

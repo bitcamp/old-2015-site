@@ -1,6 +1,5 @@
 form{
-	// jeff used a particular grey color. better not argue with it! :)
-border:1px solid #E5D8CE;
+border:1px solid $light-brown;
 border-radius: 4px;	
 @include center(465px);
 padding: 20px;

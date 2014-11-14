@@ -211,6 +211,11 @@ table {
  * Apply a clearfix to an element.
  */
 /* line 1, ../scss/atoms/_typography.scss */
+html {
+  font-size: 18px;
+}
+
+/* line 4, ../scss/atoms/_typography.scss */
 body {
   font-family: "Lato", "Casper", "Helvetica", sans-serif;
   font-size: medium;
@@ -219,7 +224,7 @@ body {
   color: #528CA5;
 }
 
-/* line 7, ../scss/atoms/_typography.scss */
+/* line 10, ../scss/atoms/_typography.scss */
 h1, h2 {
   font-family: "Aleo", "sexay font", Times, serif;
   font-size: large;
@@ -227,22 +232,22 @@ h1, h2 {
   color: #528CA5;
 }
 
-/* line 12, ../scss/atoms/_typography.scss */
+/* line 15, ../scss/atoms/_typography.scss */
 h2 {
   color: #FF7040;
 }
 
-/* line 16, ../scss/atoms/_typography.scss */
+/* line 19, ../scss/atoms/_typography.scss */
 h3 {
   font-weight: bold;
 }
 
-/* line 19, ../scss/atoms/_typography.scss */
+/* line 22, ../scss/atoms/_typography.scss */
 h4 {
   font-style: italic;
 }
 
-/* line 22, ../scss/atoms/_typography.scss */
+/* line 25, ../scss/atoms/_typography.scss */
 input[type="email"] {
   font-size: 24px;
   font-size: 1.33333rem;
@@ -250,13 +255,29 @@ input[type="email"] {
   color: #528CA5;
 }
 
-/* line 27, ../scss/atoms/_typography.scss */
+/* line 30, ../scss/atoms/_typography.scss */
 input[type="submit"], .btn {
   font-weight: bold;
   font-size: medium;
   font-size: 1rem;
   font-family: "Lato", "Casper", "Helvetica", sans-serif;
   color: #fff;
+  text-decoration: none;
+}
+
+/* line 37, ../scss/atoms/_typography.scss */
+small {
+  font-size: medium;
+  font-size: 1rem;
+  color: #528CA5;
+}
+
+/* line 41, ../scss/atoms/_typography.scss */
+a {
+  font-size: medium;
+  font-size: 1rem;
+  color: #528CA5;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -285,11 +306,11 @@ form:after {
   clear: both;
 }
 
-/* line 8, ../scss/atoms/_form.scss */
+/* line 7, ../scss/atoms/_form.scss */
 input {
   border: none;
 }
-/* line 10, ../scss/atoms/_form.scss */
+/* line 9, ../scss/atoms/_form.scss */
 input[type="email"] {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -315,7 +336,7 @@ input[type="email"]:after {
 input[type="email"]:last-child {
   margin-right: 0%;
 }
-/* line 17, ../scss/atoms/_form.scss */
+/* line 16, ../scss/atoms/_form.scss */
 input[type="submit"] {
   *zoom: 1;
   float: left;
@@ -364,6 +385,49 @@ input[type="submit"]:last-child {
 /* line 349, ../scss/jeet/_grid.scss */
 .btn:after {
   clear: both;
+}
+
+/* line 1, ../scss/atoms/_social-link.scss */
+ul.social-links > li {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+/* line 344, ../scss/jeet/_grid.scss */
+ul.social-links > li:before, ul.social-links > li:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../scss/jeet/_grid.scss */
+ul.social-links > li:after {
+  clear: both;
+}
+/* line 58, ../scss/jeet/_grid.scss */
+ul.social-links > li:last-child {
+  margin-right: 0%;
+}
+/* line 3, ../scss/atoms/_social-link.scss */
+ul.social-links > li a, ul.social-links > li img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* line 7, ../scss/atoms/_social-link.scss */
+ul.social-links > li img {
+  height: 20px;
+}
+
+/* line 1, ../scss/atoms/_hr.scss */
+hr {
+  border: solid 1px #E5D8CE;
+}
+
+/* line 1, ../scss/atoms/_header.scss */
+header {
+  background-color: #fff;
 }
 
 /* line 1, ../scss/molecules/_layout.scss */
@@ -459,8 +523,29 @@ input[type="submit"]:last-child {
 .wrapper-main ul.sponsors li img, .wrapper-main ul.social-feed li img {
   max-width: 100%;
 }
+/* line 15, ../scss/molecules/_layout.scss */
+.wrapper-main ul.social-links {
+  *zoom: 1;
+  width: auto;
+  max-width: 320px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 344, ../scss/jeet/_grid.scss */
+.wrapper-main ul.social-links:before, .wrapper-main ul.social-links:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../scss/jeet/_grid.scss */
+.wrapper-main ul.social-links:after {
+  clear: both;
+}
 
-/* line 16, ../scss/molecules/_layout.scss */
+/* line 19, ../scss/molecules/_layout.scss */
 header {
   *zoom: 1;
   width: auto;
@@ -482,7 +567,7 @@ header:before, header:after {
 header:after {
   clear: both;
 }
-/* line 19, ../scss/molecules/_layout.scss */
+/* line 22, ../scss/molecules/_layout.scss */
 header div {
   *zoom: 1;
   width: auto;
@@ -504,6 +589,81 @@ header div:after {
   clear: both;
 }
 
+/* line 26, ../scss/molecules/_layout.scss */
+footer {
+  *zoom: 1;
+  width: auto;
+  max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 344, ../scss/jeet/_grid.scss */
+footer:before, footer:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../scss/jeet/_grid.scss */
+footer:after {
+  clear: both;
+}
+/* line 28, ../scss/molecules/_layout.scss */
+footer .left {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+/* line 344, ../scss/jeet/_grid.scss */
+footer .left:before, footer .left:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../scss/jeet/_grid.scss */
+footer .left:after {
+  clear: both;
+}
+/* line 58, ../scss/jeet/_grid.scss */
+footer .left:last-child {
+  margin-right: 0%;
+}
+/* line 31, ../scss/molecules/_layout.scss */
+footer .right {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+/* line 344, ../scss/jeet/_grid.scss */
+footer .right:before, footer .right:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../scss/jeet/_grid.scss */
+footer .right:after {
+  clear: both;
+}
+/* line 58, ../scss/jeet/_grid.scss */
+footer .right:last-child {
+  margin-right: 0%;
+}
+/* line 33, ../scss/molecules/_layout.scss */
+footer .right li {
+  float: right;
+  display: inline;
+  padding-left: .375rem;
+  padding-right: .375rem;
+}
+
 /* line 2, ../scss/molecules/_text.scss */
 .wrapper-main div {
   *zoom: 1;
@@ -517,26 +677,33 @@ header div:after {
 .wrapper-main div:after {
   clear: both;
 }
-/* line 5, ../scss/molecules/_text.scss */
-.wrapper-main p {
-  *zoom: 1;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 48.5%;
-  margin-left: 25.75%;
-  margin-right: 3%;
+@media (min-width: 46.8em) {
+  /* line 5, ../scss/molecules/_text.scss */
+  .wrapper-main p {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 48.5%;
+    margin-left: 25.75%;
+    margin-right: 3%;
+  }
+  /* line 344, ../scss/jeet/_grid.scss */
+  .wrapper-main p:before, .wrapper-main p:after {
+    content: '';
+    display: table;
+  }
+  /* line 349, ../scss/jeet/_grid.scss */
+  .wrapper-main p:after {
+    clear: both;
+  }
+  /* line 58, ../scss/jeet/_grid.scss */
+  .wrapper-main p:last-child {
+    margin-right: 0%;
+  }
 }
-/* line 344, ../scss/jeet/_grid.scss */
-.wrapper-main p:before, .wrapper-main p:after {
-  content: '';
-  display: table;
-}
-/* line 349, ../scss/jeet/_grid.scss */
-.wrapper-main p:after {
-  clear: both;
-}
-/* line 58, ../scss/jeet/_grid.scss */
-.wrapper-main p:last-child {
-  margin-right: 0%;
+
+/* line 1, ../scss/atoms/_background-day.scss */
+.background {
+  background-color: #CBF2FF;
 }

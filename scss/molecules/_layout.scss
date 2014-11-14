@@ -12,11 +12,29 @@
 			}
 		}
 	}
+	ul.social-links{
+		@include center(320px);
+	}
 }
 header{
 	@include center(620px,2);
 	text-align: center;
 	div{
 	 @include center(465px);
+	}
+}
+footer{
+	@include center(960px);
+	.left{
+		@include column(1/2);
+	}
+	.right{
+		@include column(1/2);
+		li{
+			float: right;
+			display: inline;
+			padding-left: .375rem;
+			padding-right: .375rem;
+		}
 	}
 }

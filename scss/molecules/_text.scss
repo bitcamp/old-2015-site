@@ -3,6 +3,9 @@
 		@include cf();
 	}
 	p{
-		@include column(1/2, $offset:1/4);
+		@include breakpoint($bp-med){
+			@include column(1/2, $offset:1/4);
+		}
+		
 	}
 }
