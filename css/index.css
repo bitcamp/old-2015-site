@@ -297,9 +297,9 @@ input[type="email"] {
   float: left;
   clear: none;
   text-align: inherit;
-  width: 65.31987%;
+  width: 66.0%;
   margin-left: 0%;
-  margin-right: 4.0404%;
+  margin-right: 2%;
   text-align: left;
 }
 /* line 344, ../scss/jeet/_grid.scss */
@@ -315,17 +315,18 @@ input[type="email"]:after {
 input[type="email"]:last-child {
   margin-right: 0%;
 }
-/* line 16, ../scss/atoms/_form.scss */
+/* line 17, ../scss/atoms/_form.scss */
 input[type="submit"] {
   *zoom: 1;
   float: left;
   clear: none;
   text-align: inherit;
-  width: 30.63973%;
+  width: 31.33333%;
   margin-left: 0%;
-  margin-right: 4.0404%;
+  margin-right: 3%;
   background-color: #528CA5;
-  padding: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border-radius: 4px;
 }
 /* line 344, ../scss/jeet/_grid.scss */

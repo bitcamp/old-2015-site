@@ -10,13 +10,15 @@ input{
 	&[type="email"]{
 	padding-top: 8px;
 	padding-bottom: 8px;
-	@include column(2/3 3/4);
+	// Strange crossbrowser stuff needs gutter = 2.
+	@include column(2/3, $gutter:2);
 	text-align: left;
 	}
 	&[type="submit"]{
-		@include column (1/3 3/4);
+		@include column (1/3);
 		background-color: $medium-blue;
-		padding: 12px;
+		padding-top: 12px;
+		padding-bottom: 12px;
 		border-radius: 4px;
 	}
 }
