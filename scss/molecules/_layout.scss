@@ -1,4 +1,6 @@
 .wrapper-main{
+	z-index: 3;
+	position: relative;
 	@include center(960px,1);
 	text-align: center;	
 	ul.sponsors, ul.social-feed{
@@ -15,6 +17,9 @@
 	ul.social-links{
 		@include center(320px);
 	}
+	h2.social{
+		margin-bottom: 0;
+	}
 }
 header{
 	@include center(620px,2);
@@ -24,6 +29,8 @@ header{
 	}
 }
 footer{
+	padding-top: 52px;
+	padding-bottom: 52px;
 	@include center(960px);
 	.left{
 		@include column(1/2);

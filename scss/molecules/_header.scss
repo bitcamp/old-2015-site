@@ -1,0 +1,22 @@
+.background{
+	padding-top:52px;
+}
+header{
+	z-index: 1;
+	background-color: #fff;
+	position: relative;
+	padding-top: 26px*2;
+	// round edges
+	box-shadow:  0px 20px 0 10px white, 0px 40px 0 20px white;	
+	h3{
+		margin-top: 13px;
+		margin-bottom: 13px;
+	}
+	h1{
+		margin-top: 13px;
+		margin-bottom: 13px;
+	}
+	img{
+		width: 20%;
+	}
+}
