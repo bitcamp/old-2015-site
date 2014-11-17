@@ -11,7 +11,7 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/vendor/modernizr-2.8.0.min.js"></script>
+    <!-- <script src="js/vendor/modernizr-2.8.0.min.js"></script> -->
 </head>
 
 <body>
@@ -21,6 +21,8 @@
 
     <!-- Add your site or application content here -->
     <div class="background">
+    	<img src="img/day/cloud-1.png" alt="cloud" class="cloud-1">
+    	<img src="img/day/cloud-2.png" alt="cloud" class="cloud-2">
         <header>
             <!-- header will be animation container -->
             <div>
@@ -28,8 +30,11 @@
                 <h3>Mark Your Calendars.</h3>
                 <h1>April 10-12, 2015</h1>
                 <p>We're gearing up for another session of Bitcamp: our classic feel-good vibes with a refined vision of what a hackathon can be. More info coming soon.</p>
-                <form action="#">
-                    <input type="email" name="email" placeholder="email address">
+                <form action="//bitca.us3.list-manage.com/subscribe/post?u=b41c324d1a706515735344250&amp;id=b8f03b366c" method="post" name="mc-embedded-subscribe-form" novalidate>
+                <!-- add target="_blank"? -->
+                    <input type="email" name="EMAIL" placeholder="email address">
+                    <!-- mailchimp said I should add this for bot protection... -->
+                     <div style="position: absolute; left: -5000px;"><input type="text" name="b_b41c324d1a706515735344250_b8f03b366c" tabindex="-1" value=""></div>
                     <input type="submit" value="submit">
                 </form>
             </div>
@@ -166,12 +171,12 @@
         </ul>
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')
     </script>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script> -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
