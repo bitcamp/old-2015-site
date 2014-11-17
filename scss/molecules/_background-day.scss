@@ -1,0 +1,40 @@
+$cloud-animation-duration:80s;
+.background{
+	background-color: $sky-blue;
+	.cloud-1{
+		top:100px;
+		 -webkit-animation: cloud-1 $cloud-animation-duration;
+		         animation: cloud-1 $cloud-animation-duration;
+	}
+	.cloud-2{
+		top:300px;
+		 -webkit-animation: cloud-2 $cloud-animation-duration;
+		         animation: cloud-2 $cloud-animation-duration;
+	}
+	.cloud-1,.cloud-2{
+		position: absolute;	
+		-webkit-animation-iteration-count:infinite;	
+		        animation-iteration-count:infinite;
+		-webkit-animation-timing-function:linear;
+		        animation-timing-function:linear;
+	}
+}
+@-webkit-keyframes cloud-1 {
+    from {left:-150px}
+    to {left:100%}
+}
+@keyframes cloud-1 {
+    from {left:-150px}
+    to {left:100%}
+}
+@-webkit-keyframes cloud-2 {
+    from {right:-110px}
+    to {right:100%}
+}
+@keyframes cloud-2 {
+    from {right:-110px}
+    to {right:100%}
+}
+body{
+	overflow-x:hidden;
+}
