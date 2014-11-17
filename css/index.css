@@ -344,6 +344,8 @@ input[type="email"] {
   margin-left: 0%;
   margin-right: 2%;
   text-align: left;
+  padding-left: 0;
+  padding-right: 0;
 }
 /* line 344, ../scss/jeet/_grid.scss */
 input[type="email"]:before, input[type="email"]:after {
@@ -358,8 +360,10 @@ input[type="email"]:after {
 input[type="email"]:last-child {
   margin-right: 0%;
 }
-/* line 16, ../scss/atoms/_form.scss */
+/* line 18, ../scss/atoms/_form.scss */
 input[type="submit"] {
+  padding-left: 0;
+  padding-right: 0;
   -webkit-appearance: none;
   *zoom: 1;
   float: left;
