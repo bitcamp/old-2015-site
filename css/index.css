@@ -360,6 +360,7 @@ input[type="email"]:last-child {
 }
 /* line 16, ../scss/atoms/_form.scss */
 input[type="submit"] {
+  -webkit-appearance: none;
   *zoom: 1;
   float: left;
   clear: none;
