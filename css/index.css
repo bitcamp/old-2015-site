@@ -769,20 +769,21 @@ footer .right li {
 .background {
   background-color: #CBF2FF;
   overflow-x: hidden;
+  width: 100%;
 }
-/* line 5, ../scss/molecules/_background-day.scss */
+/* line 6, ../scss/molecules/_background-day.scss */
 .background .cloud-1 {
   top: 100px;
   -webkit-animation: cloud-1 80s;
   animation: cloud-1 80s;
 }
-/* line 10, ../scss/molecules/_background-day.scss */
+/* line 11, ../scss/molecules/_background-day.scss */
 .background .cloud-2 {
   top: 300px;
   -webkit-animation: cloud-2 80s;
   animation: cloud-2 80s;
 }
-/* line 15, ../scss/molecules/_background-day.scss */
+/* line 16, ../scss/molecules/_background-day.scss */
 .background .cloud-1, .background .cloud-2 {
   position: absolute;
   -webkit-animation-iteration-count: infinite;
