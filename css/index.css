@@ -494,8 +494,8 @@ header img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 1;
-  padding-right: 1;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: center;
 }
 /* line 344, ../scss/jeet/_grid.scss */
@@ -614,8 +614,8 @@ header {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 2;
-  padding-right: 2;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: center;
 }
 /* line 344, ../scss/jeet/_grid.scss */

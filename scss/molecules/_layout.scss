@@ -1,7 +1,7 @@
 .wrapper-main{
 	z-index: 3;
 	position: relative;
-	@include center(960px,1);
+	@include center(960px,5%);
 	text-align: center;	
 	ul.sponsors, ul.social-feed{
 		li{
@@ -23,7 +23,7 @@
 	}
 }
 header{
-	@include center(620px,2);
+	@include center(620px,5%);
 	text-align: center;
 	div{
 	 @include center(465px);
