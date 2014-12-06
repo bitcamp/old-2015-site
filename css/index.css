@@ -516,6 +516,8 @@ header img {
   width: 31.33333%;
   margin-left: 0%;
   margin-right: 3%;
+  margin-bottom: 3%;
+  line-height: 0;
 }
 /* line 344, ../scss/jeet/_grid.scss */
 .wrapper-main ul.sponsors li:before, .wrapper-main ul.sponsors li:after, .wrapper-main ul.social-feed li:before, .wrapper-main ul.social-feed li:after {
@@ -574,12 +576,12 @@ header img {
     clear: both;
   }
 }
-/* line 12, ../scss/molecules/_layout.scss */
+/* line 14, ../scss/molecules/_layout.scss */
 .wrapper-main ul.sponsors li img, .wrapper-main ul.social-feed li img {
   max-width: 100%;
   border-radius: 4px;
 }
-/* line 18, ../scss/molecules/_layout.scss */
+/* line 20, ../scss/molecules/_layout.scss */
 .wrapper-main ul.social-links {
   *zoom: 1;
   width: auto;
@@ -600,12 +602,12 @@ header img {
 .wrapper-main ul.social-links:after {
   clear: both;
 }
-/* line 21, ../scss/molecules/_layout.scss */
+/* line 23, ../scss/molecules/_layout.scss */
 .wrapper-main h2.social {
   margin-bottom: 0;
 }
 
-/* line 25, ../scss/molecules/_layout.scss */
+/* line 27, ../scss/molecules/_layout.scss */
 header {
   *zoom: 1;
   width: auto;
@@ -627,7 +629,7 @@ header:before, header:after {
 header:after {
   clear: both;
 }
-/* line 28, ../scss/molecules/_layout.scss */
+/* line 30, ../scss/molecules/_layout.scss */
 header div {
   *zoom: 1;
   width: auto;
@@ -649,7 +651,7 @@ header div:after {
   clear: both;
 }
 
-/* line 32, ../scss/molecules/_layout.scss */
+/* line 34, ../scss/molecules/_layout.scss */
 footer {
   padding-top: 52px;
   padding-bottom: 52px;
@@ -672,7 +674,7 @@ footer:before, footer:after {
 footer:after {
   clear: both;
 }
-/* line 36, ../scss/molecules/_layout.scss */
+/* line 38, ../scss/molecules/_layout.scss */
 footer .left {
   *zoom: 1;
   float: left;
@@ -695,7 +697,7 @@ footer .left:after {
 footer .left:last-child {
   margin-right: 0%;
 }
-/* line 39, ../scss/molecules/_layout.scss */
+/* line 41, ../scss/molecules/_layout.scss */
 footer .right {
   *zoom: 1;
   float: left;
@@ -718,7 +720,7 @@ footer .right:after {
 footer .right:last-child {
   margin-right: 0%;
 }
-/* line 41, ../scss/molecules/_layout.scss */
+/* line 43, ../scss/molecules/_layout.scss */
 footer .right li {
   float: right;
   display: inline;
