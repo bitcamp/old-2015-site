@@ -824,3 +824,7 @@ footer .right li {
     right: 100%;
   }
 }
+/* line 40, ../scss/molecules/_background-day.scss */
+body {
+  overflow-x: hidden;
+}
