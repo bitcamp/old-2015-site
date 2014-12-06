@@ -1,6 +1,7 @@
 $cloud-animation-duration:80s;
 .background{
 	background-color: $sky-blue;
+	overflow-x:hidden;
 	.cloud-1{
 		top:100px;
 		 -webkit-animation: cloud-1 $cloud-animation-duration;
@@ -34,7 +35,4 @@ $cloud-animation-duration:80s;
 @keyframes cloud-2 {
     from {right:-110px}
     to {right:100%}
-}
-body{
-	overflow-x:hidden;
 }
