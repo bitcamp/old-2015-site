@@ -28,38 +28,6 @@ $cloud-animation-duration:80s;
         animation-timing-function: linear;
     }
 }
-@-webkit-keyframes cloud-1 {
-    from {
-        left: -150px
-    }
-    to {
-        left: 100%
-    }
-}
-@keyframes cloud-1 {
-    from {
-        left: -150px
-    }
-    to {
-        left: 100%
-    }
-}
-@-webkit-keyframes cloud-2 {
-    from {
-        right: -110px
-    }
-    to {
-        right: 100%
-    }
-}
-@keyframes cloud-2 {
-    from {
-        right: -110px
-    }
-    to {
-        right: 100%
-    }
-}
 body {
     overflow-x: hidden;
 }
