@@ -29,6 +29,9 @@
 }
 header{
 	@include center(620px,5%);
+	@include breakpoint($bp-med){
+		@include center(620px,0);	
+	}
 	text-align: center;
 	div{
 	 @include center(465px);

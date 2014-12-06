@@ -633,7 +633,30 @@ header:before, header:after {
 header:after {
   clear: both;
 }
-/* line 33, ../scss/molecules/_layout.scss */
+@media (min-width: 46.8em) {
+  /* line 30, ../scss/molecules/_layout.scss */
+  header {
+    *zoom: 1;
+    width: auto;
+    max-width: 620px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 344, ../scss/jeet/_grid.scss */
+  header:before, header:after {
+    content: '';
+    display: table;
+  }
+  /* line 349, ../scss/jeet/_grid.scss */
+  header:after {
+    clear: both;
+  }
+}
+/* line 36, ../scss/molecules/_layout.scss */
 header div {
   *zoom: 1;
   width: auto;
@@ -655,7 +678,7 @@ header div:after {
   clear: both;
 }
 
-/* line 37, ../scss/molecules/_layout.scss */
+/* line 40, ../scss/molecules/_layout.scss */
 footer {
   padding-top: 52px;
   padding-bottom: 52px;
@@ -678,7 +701,7 @@ footer:before, footer:after {
 footer:after {
   clear: both;
 }
-/* line 41, ../scss/molecules/_layout.scss */
+/* line 44, ../scss/molecules/_layout.scss */
 footer .left {
   *zoom: 1;
   float: left;
@@ -701,7 +724,7 @@ footer .left:after {
 footer .left:last-child {
   margin-right: 0%;
 }
-/* line 44, ../scss/molecules/_layout.scss */
+/* line 47, ../scss/molecules/_layout.scss */
 footer .right {
   *zoom: 1;
   float: left;
@@ -724,7 +747,7 @@ footer .right:after {
 footer .right:last-child {
   margin-right: 0%;
 }
-/* line 46, ../scss/molecules/_layout.scss */
+/* line 49, ../scss/molecules/_layout.scss */
 footer .right li {
   float: right;
   display: inline;
