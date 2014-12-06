@@ -1,42 +1,65 @@
 $cloud-animation-duration:80s;
-.background{
-	background-color: $sky-blue;
-	overflow-x:hidden;
-	width: 100%;
-	.cloud-1{
-		top:100px;
-		 -webkit-animation: cloud-1 $cloud-animation-duration;
-		         animation: cloud-1 $cloud-animation-duration;
-	}
-	.cloud-2{
-		top:300px;
-		 -webkit-animation: cloud-2 $cloud-animation-duration;
-		         animation: cloud-2 $cloud-animation-duration;
-	}
-	.cloud-1,.cloud-2{
-		position: absolute;	
-		-webkit-animation-iteration-count:infinite;	
-		        animation-iteration-count:infinite;
-		-webkit-animation-timing-function:linear;
-		        animation-timing-function:linear;
-	}
+.background {
+    background-color: $sky-blue;
+    width: 100%;
+    .cloud-1 {
+        display: none;
+        @include breakpoint($bp-med) {
+            display: block;
+            top: 100px;
+            -webkit-animation: cloud-1 $cloud-animation-duration;
+            animation: cloud-1 $cloud-animation-duration;
+        }
+    }
+    .cloud-2 {
+    	display: none;
+        @include breakpoint($bp-med) {
+            display: block;
+            top: 300px;
+            -webkit-animation: cloud-2 $cloud-animation-duration;
+            animation: cloud-2 $cloud-animation-duration;
+        }
+    }
+    .cloud-1, .cloud-2 {
+        position: absolute;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+    }
 }
 @-webkit-keyframes cloud-1 {
-    from {left:-150px}
-    to {left:100%}
+    from {
+        left: -150px
+    }
+    to {
+        left: 100%
+    }
 }
 @keyframes cloud-1 {
-    from {left:-150px}
-    to {left:100%}
+    from {
+        left: -150px
+    }
+    to {
+        left: 100%
+    }
 }
 @-webkit-keyframes cloud-2 {
-    from {right:-110px}
-    to {right:100%}
+    from {
+        right: -110px
+    }
+    to {
+        right: 100%
+    }
 }
 @keyframes cloud-2 {
-    from {right:-110px}
-    to {right:100%}
+    from {
+        right: -110px
+    }
+    to {
+        right: 100%
+    }
 }
-body{
-	overflow-x: hidden;
+body {
+    overflow-x: hidden;
 }

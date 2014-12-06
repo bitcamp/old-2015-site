@@ -768,22 +768,35 @@ footer .right li {
 /* line 2, ../scss/molecules/_background-day.scss */
 .background {
   background-color: #CBF2FF;
-  overflow-x: hidden;
   width: 100%;
 }
-/* line 6, ../scss/molecules/_background-day.scss */
+/* line 5, ../scss/molecules/_background-day.scss */
 .background .cloud-1 {
-  top: 100px;
-  -webkit-animation: cloud-1 80s;
-  animation: cloud-1 80s;
+  display: none;
 }
-/* line 11, ../scss/molecules/_background-day.scss */
+@media (min-width: 46.8em) {
+  /* line 5, ../scss/molecules/_background-day.scss */
+  .background .cloud-1 {
+    display: block;
+    top: 100px;
+    -webkit-animation: cloud-1 80s;
+    animation: cloud-1 80s;
+  }
+}
+/* line 14, ../scss/molecules/_background-day.scss */
 .background .cloud-2 {
-  top: 300px;
-  -webkit-animation: cloud-2 80s;
-  animation: cloud-2 80s;
+  display: none;
 }
-/* line 16, ../scss/molecules/_background-day.scss */
+@media (min-width: 46.8em) {
+  /* line 14, ../scss/molecules/_background-day.scss */
+  .background .cloud-2 {
+    display: block;
+    top: 300px;
+    -webkit-animation: cloud-2 80s;
+    animation: cloud-2 80s;
+  }
+}
+/* line 23, ../scss/molecules/_background-day.scss */
 .background .cloud-1, .background .cloud-2 {
   position: absolute;
   -webkit-animation-iteration-count: infinite;
@@ -824,7 +837,7 @@ footer .right li {
     right: 100%;
   }
 }
-/* line 40, ../scss/molecules/_background-day.scss */
+/* line 63, ../scss/molecules/_background-day.scss */
 body {
   overflow-x: hidden;
 }
