@@ -734,15 +734,16 @@ input[type="submit"]:last-child {
 /* line 1, ../scss/atoms/_button.scss */
 .btn {
   background-color: #528CA5;
-  padding: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border-radius: 4px;
   *zoom: 1;
   float: left;
   clear: none;
   text-align: inherit;
-  width: 33.33333%;
-  margin-left: 33.33333%;
-  margin-right: 0%;
+  width: 31.33333%;
+  margin-left: 34.33333%;
+  margin-right: 3%;
 }
 /* line 344, ../scss/jeet/_grid.scss */
 .btn:before, .btn:after {
@@ -752,6 +753,10 @@ input[type="submit"]:last-child {
 /* line 349, ../scss/jeet/_grid.scss */
 .btn:after {
   clear: both;
+}
+/* line 58, ../scss/jeet/_grid.scss */
+.btn:last-child {
+  margin-right: 0%;
 }
 
 /* line 1, ../scss/atoms/_social-link.scss */
