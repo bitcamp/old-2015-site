@@ -239,8 +239,32 @@ h1, h2 {
 h2 {
   color: #FF7040;
 }
+/* line 21, ../scss/atoms/_typography.scss */
+h2:nth-of-type(1):before {
+  content: '';
+  background-image: url("../img/h2/1.png");
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  padding-left: 40px;
+}
+/* line 28, ../scss/atoms/_typography.scss */
+h2:nth-of-type(2):before {
+  content: '';
+  background-image: url("../img/h2/2.png");
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  padding-left: 40px;
+}
+/* line 35, ../scss/atoms/_typography.scss */
+h2:nth-of-type(3):before {
+  content: '';
+  background-image: url("../img/h2/3.png");
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  padding-left: 40px;
+}
 
-/* line 22, ../scss/atoms/_typography.scss */
+/* line 43, ../scss/atoms/_typography.scss */
 h3 {
   font-weight: bold;
   line-height: 26px;
@@ -248,7 +272,7 @@ h3 {
   margin-bottom: 26px;
 }
 
-/* line 28, ../scss/atoms/_typography.scss */
+/* line 49, ../scss/atoms/_typography.scss */
 h4 {
   font-style: italic;
   line-height: 26px;
@@ -256,7 +280,7 @@ h4 {
   margin-bottom: 26px;
 }
 
-/* line 34, ../scss/atoms/_typography.scss */
+/* line 55, ../scss/atoms/_typography.scss */
 input[type="email"] {
   font-size: 24px;
   font-size: 1.33333rem;
@@ -264,7 +288,7 @@ input[type="email"] {
   color: #528CA5;
 }
 
-/* line 39, ../scss/atoms/_typography.scss */
+/* line 60, ../scss/atoms/_typography.scss */
 input[type="submit"], .btn {
   font-weight: bold;
   font-size: medium;
@@ -274,7 +298,7 @@ input[type="submit"], .btn {
   text-decoration: none;
 }
 
-/* line 46, ../scss/atoms/_typography.scss */
+/* line 67, ../scss/atoms/_typography.scss */
 small {
   font-size: medium;
   font-size: 1rem;
@@ -284,7 +308,7 @@ small {
   margin-bottom: 26px;
 }
 
-/* line 53, ../scss/atoms/_typography.scss */
+/* line 74, ../scss/atoms/_typography.scss */
 a {
   font-size: medium;
   font-size: 1rem;
@@ -296,7 +320,7 @@ a {
   margin-bottom: 26px;
 }
 
-/* line 62, ../scss/atoms/_typography.scss */
+/* line 83, ../scss/atoms/_typography.scss */
 form {
   line-height: 52px;
   margin-top: 26px;

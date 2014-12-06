@@ -1,66 +1,87 @@
-html{
-	font-size: 18px;
+html {
+    font-size: 18px;
 }
-body{
-	font-family: $font-secondary;
-	@include font-size(1, medium);
-	line-height: 1.45;
-	color: $medium-blue;
+body {
+    font-family: $font-secondary;
+    @include font-size(1, medium);
+    line-height: 1.45;
+    color: $medium-blue;
 }
-h1{
-	font-family: $font;
-	@include font-size( 2, large );
-	color: $medium-blue;
-	line-height: 52px;
-	margin-top: 26px;
-	margin-bottom: 26px;
+h1 {
+    font-family: $font;
+    @include font-size( 2, large);
+    color: $medium-blue;
+    line-height: 52px;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
-h2{
-	@extend h1; 
-	color: $bitcamp-orange;
+h2 {
+    @extend h1;
+    color: $bitcamp-orange;
+    &:nth-of-type(1):before {
+    	content:'';
+        background-image: url('../img/h2/1.png');
+        background-repeat: no-repeat;
+        background-position: 0px center;
+        padding-left: 40px;
+    }
+    &:nth-of-type(2):before {
+    	content:'';
+        background-image: url('../img/h2/2.png');
+        background-repeat: no-repeat;
+        background-position: 0px center;
+        padding-left: 40px;
+    }
+    &:nth-of-type(3):before {
+    	content:'';
+        background-image: url('../img/h2/3.png');
+        background-repeat: no-repeat;
+        background-position: 0px center;
+        padding-left: 40px;
+    }
 }
-h3{
-	font-weight: bold;
-	line-height: 26px;
-	margin-top: 26px;
-	margin-bottom: 26px;
+h3 {
+    font-weight: bold;
+    line-height: 26px;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
-h4{
-	font-style: italic;
-	line-height: 26px;
-	margin-top: 26px;
-	margin-bottom: 26px;
+h4 {
+    font-style: italic;
+    line-height: 26px;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
-input[type="email"]{
-	@include font-size((4/3));
-	font-family: $font-secondary;
-	color: $medium-blue;
+input[type="email"] {
+    @include font-size((4/3));
+    font-family: $font-secondary;
+    color: $medium-blue;
 }
-input[type="submit"], .btn{
-	font-weight: bold;
-	@include font-size(1, medium);
-	font-family: $font-secondary;
-	color: #fff;
-	text-decoration: none;
+input[type="submit"], .btn {
+    font-weight: bold;
+    @include font-size(1, medium);
+    font-family: $font-secondary;
+    color: #fff;
+    text-decoration: none;
 }
-small{
-	@include font-size(1, medium);
-	color: $medium-blue;
-	line-height: 26px;
-	margin-top: 26px;
-	margin-bottom: 26px;
+small {
+    @include font-size(1, medium);
+    color: $medium-blue;
+    line-height: 26px;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
-a{
-	@include font-size(1, medium);
-	color: $medium-blue;
-	font-weight: bold;
-	text-decoration: none;
-	line-height: 26px;
-	margin-top: 26px;
-	margin-bottom: 26px;
+a {
+    @include font-size(1, medium);
+    color: $medium-blue;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 26px;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
-form{
-	line-height: 52px;
-	margin-top: 26px;
-	margin-bottom: 26px;
+form {
+    line-height: 52px;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
