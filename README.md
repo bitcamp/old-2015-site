@@ -11,6 +11,8 @@ bitcamp.github.io
 8. if this is your first time using github you HAVE to contribute.
 
 ##Install: 
+
 make sure you have [compass](http://snugug.com/musings/installing-sass-and-compass-across-all-platform) and [breakpoint-sass](https://github.com/at-import/breakpoint/wiki/Installation#installation) installed. 
+
 =================
 ps: [Preview the website here.](http://bitcamp.github.io)
