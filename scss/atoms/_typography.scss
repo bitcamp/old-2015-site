@@ -64,6 +64,13 @@ input[type="submit"], .btn {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
+    // Transition fun!
+    -webkit-transition: background-color .25s; /* For Safari 3.1 to 6.0 */
+    transition: background-color .25s;
+    // end it.
+    &:hover{
+    	background-color: $bitcamp-orange;
+    }
 }
 small {
     @include font-size(1, medium);

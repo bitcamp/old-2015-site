@@ -296,9 +296,16 @@ input[type="submit"], .btn {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+  -webkit-transition: background-color .25s;
+  /* For Safari 3.1 to 6.0 */
+  transition: background-color .25s;
+}
+/* line 71, ../scss/atoms/_typography.scss */
+input[type="submit"]:hover, .btn:hover {
+  background-color: #FF7040;
 }
 
-/* line 68, ../scss/atoms/_typography.scss */
+/* line 75, ../scss/atoms/_typography.scss */
 small {
   font-size: medium;
   font-size: 1rem;
@@ -308,7 +315,7 @@ small {
   margin-bottom: 26px;
 }
 
-/* line 75, ../scss/atoms/_typography.scss */
+/* line 82, ../scss/atoms/_typography.scss */
 a {
   font-size: medium;
   font-size: 1rem;
@@ -320,7 +327,7 @@ a {
   margin-bottom: 26px;
 }
 
-/* line 84, ../scss/atoms/_typography.scss */
+/* line 91, ../scss/atoms/_typography.scss */
 form {
   line-height: 52px;
   margin-top: 26px;
