@@ -63,6 +63,7 @@ input[type="submit"], .btn {
     font-family: $font-secondary;
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
 }
 small {
     @include font-size(1, medium);

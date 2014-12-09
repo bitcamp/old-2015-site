@@ -295,9 +295,10 @@ input[type="submit"], .btn {
   font-family: "Lato", "Casper", "Helvetica", sans-serif;
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 
-/* line 67, ../scss/atoms/_typography.scss */
+/* line 68, ../scss/atoms/_typography.scss */
 small {
   font-size: medium;
   font-size: 1rem;
@@ -307,7 +308,7 @@ small {
   margin-bottom: 26px;
 }
 
-/* line 74, ../scss/atoms/_typography.scss */
+/* line 75, ../scss/atoms/_typography.scss */
 a {
   font-size: medium;
   font-size: 1rem;
@@ -319,7 +320,7 @@ a {
   margin-bottom: 26px;
 }
 
-/* line 83, ../scss/atoms/_typography.scss */
+/* line 84, ../scss/atoms/_typography.scss */
 form {
   line-height: 52px;
   margin-top: 26px;
