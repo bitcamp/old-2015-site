@@ -425,8 +425,8 @@ input[type="submit"]:last-child {
   float: left;
   clear: none;
   text-align: inherit;
-  width: 31.33333%;
-  margin-left: 34.33333%;
+  width: 48.5%;
+  margin-left: 25.75%;
   margin-right: 3%;
 }
 /* line 344, ../scss/jeet/_grid.scss */
@@ -441,6 +441,31 @@ input[type="submit"]:last-child {
 /* line 58, ../scss/jeet/_grid.scss */
 .btn:last-child {
   margin-right: 0%;
+}
+@media (min-width: 46.8em) {
+  /* line 1, ../scss/atoms/_button.scss */
+  .btn {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 31.33333%;
+    margin-left: 34.33333%;
+    margin-right: 3%;
+  }
+  /* line 344, ../scss/jeet/_grid.scss */
+  .btn:before, .btn:after {
+    content: '';
+    display: table;
+  }
+  /* line 349, ../scss/jeet/_grid.scss */
+  .btn:after {
+    clear: both;
+  }
+  /* line 58, ../scss/jeet/_grid.scss */
+  .btn:last-child {
+    margin-right: 0%;
+  }
 }
 
 /* line 1, ../scss/atoms/_social-link.scss */
