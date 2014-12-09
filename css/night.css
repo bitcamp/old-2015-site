@@ -1145,47 +1145,21 @@ footer .right li {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
 }
-/* line 2, ../scss/molecules/_background-day.scss */
+/* line 2, ../scss/molecules/_background-night.scss */
 .background {
-  background-color: #CBF2FF;
+  background-color: #1a2e33;
   width: 100%;
 }
-/* line 5, ../scss/molecules/_background-day.scss */
+/* line 5, ../scss/molecules/_background-night.scss */
 .background .cloud-1 {
   display: none;
 }
-@media (min-width: 46.8em) {
-  /* line 5, ../scss/molecules/_background-day.scss */
-  .background .cloud-1 {
-    display: block;
-    top: 100px;
-    -webkit-animation: cloud-1 80s;
-    animation: cloud-1 80s;
-  }
-}
-/* line 14, ../scss/molecules/_background-day.scss */
+/* line 8, ../scss/molecules/_background-night.scss */
 .background .cloud-2 {
   display: none;
 }
-@media (min-width: 46.8em) {
-  /* line 14, ../scss/molecules/_background-day.scss */
-  .background .cloud-2 {
-    display: block;
-    top: 300px;
-    -webkit-animation: cloud-2 80s;
-    animation: cloud-2 80s;
-  }
-}
-/* line 23, ../scss/molecules/_background-day.scss */
-.background .cloud-1, .background .cloud-2 {
-  position: absolute;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-}
 
-/* line 31, ../scss/molecules/_background-day.scss */
+/* line 12, ../scss/molecules/_background-night.scss */
 body {
   overflow-x: hidden;
 }
