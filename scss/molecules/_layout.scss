@@ -13,7 +13,14 @@
             @include breakpoint($bp-med) {
                 @include column(1/6, $cycle: 6, $uncycle: 3);
             }
+            &:before{
+            	content: "";
+            	display: inline-block;
+            	height: 100%;
+            	vertical-align: middle;
+            }
             img {
+            	vertical-align: middle;
                 max-width: 100%;
                 border-radius: 4px;
             }
