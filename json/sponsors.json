@@ -1,55 +1,67 @@
 
  [
         {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
+            "name": "Oculus VR",
+            "photo": "img/sponsors/oculus.svg",
+            "link": "http://google.com"
         },
 
         {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
         },
         {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
         },
         {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
-        },
-
-        {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
-        },
-        {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
-        },
-        {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
         },
 
         {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
         },
         {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
         },
         {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
         },
 
         {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
         },
         {
-            "link": "http://google.com",
-            "photo": "http://placekitten.com/g/500/500"
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
+        },
+        {
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
+        },
+
+        {
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
+        },
+        {
+            "name": "PlaceKitten",
+            "photo": "http://placekitten.com/g/500/500",
+            "link": "http://google.com"
         }
     ]
