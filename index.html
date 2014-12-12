@@ -53,7 +53,7 @@
         </div>
         <h2>Sponsors help make this happen.</h2>
         <ul class="sponsors">
-            <li>
+            <!-- <li>
                 <img src="http://placekitten.com/g/500/500" alt="p">
             </li>
             <li>
@@ -88,7 +88,7 @@
             </li>
             <li>
                 <img src="http://placekitten.com/g/500/500" alt="s">
-            </li>
+            </li> -->
         </ul>
         <div class="row">
             <div>
@@ -138,12 +138,19 @@
             </ul>
         </ul>
     </footer>
-    <!-- 
+    <script id="sponsorTemplate" type="text/template">
+        
+            <a href="<%= link %>"><img alt="<%= name %>" src="<%= photo %>" /></a>
+        
+    </script>
+    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="js/dist/jquery.min.js"><\/script>')
     </script>
- -->
+    <script src="js/dist/underscore-min.js"></script>
+    <script src="js/dist/backbone-min.js"></script>
+    <script src="js/sponsors.js"></script>
     <script src="js/dist/instafeed.js"></script>
     <script src="js/main.js"></script>
 
