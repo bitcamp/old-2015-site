@@ -7,61 +7,29 @@
         },
 
         {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
+            "name": "TCS",
+            "photo": "img/sponsors/tata.svg",
+            "link": "http://www.tcs.com/Pages/default.aspx"
         },
         {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
+            "name": "Leidos",
+            "photo": "img/sponsors/leidos.svg",
+            "link": "https://www.leidos.com/"
         },
         {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
-        },
-
-        {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
-        },
-        {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
-        },
-        {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
+            "name": "Cipher Tech Solutions",
+            "photo": "img/sponsors/cipher.svg",
             "link": "http://google.com"
         },
 
         {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
+            "name": "OPIS",
+            "photo": "img/sponsors/opis.svg",
+            "link": "http://www.opisnet.com/"
         },
         {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
-        },
-        {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
-        },
-
-        {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
-        },
-        {
-            "name": "PlaceKitten",
-            "photo": "http://placekitten.com/g/500/500",
-            "link": "http://google.com"
+            "name": "Goldman Sachs",
+            "photo": "img/sponsors/goldman.svg",
+            "link": "http://www.goldmansachs.com/"
         }
     ]
