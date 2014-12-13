@@ -94,8 +94,10 @@ form {
     margin-bottom: 26px;
 }
 *::selection {
-  background: $bitcamp-orange; /* WebKit/Blink Browsers */
+  background: $bitcamp-orange;
+  color: #fff; /* WebKit/Blink Browsers */
 }
 *::-moz-selection {
-  background: $bitcamp-orange; /* Gecko Browsers */
+  background: $bitcamp-orange;
+  color: #fff; /* Gecko Browsers */
 }

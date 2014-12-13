@@ -337,12 +337,14 @@ form {
 /* line 96, ../scss/atoms/_typography.scss */
 *::selection {
   background: #FF7040;
+  color: #fff;
   /* WebKit/Blink Browsers */
 }
 
-/* line 99, ../scss/atoms/_typography.scss */
+/* line 100, ../scss/atoms/_typography.scss */
 *::-moz-selection {
   background: #FF7040;
+  color: #fff;
   /* Gecko Browsers */
 }
 
