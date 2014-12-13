@@ -443,7 +443,6 @@ input[type="submit"]:last-child {
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 4px;
-  margin-top: 0;
   *zoom: 1;
   float: left;
   clear: none;
