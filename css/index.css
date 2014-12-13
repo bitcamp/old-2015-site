@@ -522,10 +522,16 @@ hr {
 
 /* line 1, ../scss/molecules/_header.scss */
 .background {
-  padding-top: 52px;
+  padding-top: 0;
+}
+@media (min-width: 46.8em) {
+  /* line 1, ../scss/molecules/_header.scss */
+  .background {
+    padding-top: 52px;
+  }
 }
 
-/* line 4, ../scss/molecules/_header.scss */
+/* line 7, ../scss/molecules/_header.scss */
 header {
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp;
@@ -537,17 +543,17 @@ header {
   padding-top: 52px;
   box-shadow: 0px 20px 0 10px white, 0px 40px 0 20px white;
 }
-/* line 17, ../scss/molecules/_header.scss */
+/* line 20, ../scss/molecules/_header.scss */
 header h3 {
   margin-top: 13px;
   margin-bottom: 13px;
 }
-/* line 21, ../scss/molecules/_header.scss */
+/* line 24, ../scss/molecules/_header.scss */
 header h1, header h2 {
   margin-top: 13px;
   margin-bottom: 13px;
 }
-/* line 25, ../scss/molecules/_header.scss */
+/* line 28, ../scss/molecules/_header.scss */
 header img {
   width: 20%;
 }

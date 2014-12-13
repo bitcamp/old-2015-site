@@ -1,5 +1,8 @@
 .background {
-    padding-top: 52px;
+    padding-top: 0;
+    @include breakpoint($bp-med){
+    	padding-top: 52px;
+    }
 }
 header {
     // -webkit-animation: headerBounce 1050ms linear both;
