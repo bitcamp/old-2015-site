@@ -14,7 +14,6 @@
                 @include column(1/6, $cycle: 6, $uncycle: 3);
             }
             img {
-            	@include align();
                 max-width: 100%;
                 border-radius: 4px;
             }
