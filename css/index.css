@@ -334,6 +334,18 @@ form {
   margin-bottom: 26px;
 }
 
+/* line 96, ../scss/atoms/_typography.scss */
+*::selection {
+  background: #FF7040;
+  /* WebKit/Blink Browsers */
+}
+
+/* line 99, ../scss/atoms/_typography.scss */
+*::-moz-selection {
+  background: #FF7040;
+  /* Gecko Browsers */
+}
+
 /* line 1, ../scss/atoms/_form.scss */
 form {
   border: 1px solid #E5D8CE;

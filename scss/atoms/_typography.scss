@@ -93,3 +93,9 @@ form {
     margin-top: 26px;
     margin-bottom: 26px;
 }
+*::selection {
+  background: $bitcamp-orange; /* WebKit/Blink Browsers */
+}
+*::-moz-selection {
+  background: $bitcamp-orange; /* Gecko Browsers */
+}
