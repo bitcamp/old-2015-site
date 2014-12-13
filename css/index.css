@@ -237,9 +237,10 @@ h1, h2 {
 
 /* line 18, ../scss/atoms/_typography.scss */
 h2 {
+  margin-top: 52px;
   color: #FF7040;
 }
-/* line 21, ../scss/atoms/_typography.scss */
+/* line 22, ../scss/atoms/_typography.scss */
 h2:nth-of-type(1):before {
   content: '';
   background-image: url("../img/h2/1.png");
@@ -247,7 +248,7 @@ h2:nth-of-type(1):before {
   background-position: 0px center;
   padding-left: 40px;
 }
-/* line 28, ../scss/atoms/_typography.scss */
+/* line 29, ../scss/atoms/_typography.scss */
 h2:nth-of-type(2):before {
   content: '';
   background-image: url("../img/h2/2.png");
@@ -255,7 +256,7 @@ h2:nth-of-type(2):before {
   background-position: 0px center;
   padding-left: 40px;
 }
-/* line 35, ../scss/atoms/_typography.scss */
+/* line 36, ../scss/atoms/_typography.scss */
 h2:nth-of-type(3):before {
   content: '';
   background-image: url("../img/h2/3.png");
@@ -264,7 +265,7 @@ h2:nth-of-type(3):before {
   padding-left: 40px;
 }
 
-/* line 43, ../scss/atoms/_typography.scss */
+/* line 44, ../scss/atoms/_typography.scss */
 h3 {
   font-weight: bold;
   line-height: 26px;
@@ -272,14 +273,14 @@ h3 {
   margin-bottom: 26px;
 }
 
-/* line 49, ../scss/atoms/_typography.scss */
+/* line 50, ../scss/atoms/_typography.scss */
 h4 {
   line-height: 26px;
   margin-top: 26px;
   margin-bottom: 26px;
 }
 
-/* line 55, ../scss/atoms/_typography.scss */
+/* line 56, ../scss/atoms/_typography.scss */
 input[type="email"] {
   font-size: 24px;
   font-size: 1.33333rem;
@@ -287,7 +288,7 @@ input[type="email"] {
   color: #528CA5;
 }
 
-/* line 60, ../scss/atoms/_typography.scss */
+/* line 61, ../scss/atoms/_typography.scss */
 input[type="submit"], .btn {
   font-weight: bold;
   font-size: medium;
@@ -300,12 +301,12 @@ input[type="submit"], .btn {
   /* For Safari 3.1 to 6.0 */
   transition: background-color .25s;
 }
-/* line 71, ../scss/atoms/_typography.scss */
+/* line 72, ../scss/atoms/_typography.scss */
 input[type="submit"]:hover, .btn:hover {
   background-color: #FF7040;
 }
 
-/* line 75, ../scss/atoms/_typography.scss */
+/* line 76, ../scss/atoms/_typography.scss */
 small {
   font-size: medium;
   font-size: 1rem;
@@ -315,7 +316,7 @@ small {
   margin-bottom: 26px;
 }
 
-/* line 82, ../scss/atoms/_typography.scss */
+/* line 83, ../scss/atoms/_typography.scss */
 a {
   font-size: medium;
   font-size: 1rem;
@@ -327,21 +328,21 @@ a {
   margin-bottom: 26px;
 }
 
-/* line 91, ../scss/atoms/_typography.scss */
+/* line 92, ../scss/atoms/_typography.scss */
 form {
   line-height: 52px;
   margin-top: 26px;
   margin-bottom: 26px;
 }
 
-/* line 96, ../scss/atoms/_typography.scss */
+/* line 97, ../scss/atoms/_typography.scss */
 *::selection {
   background: #FF7040;
   color: #fff;
   /* WebKit/Blink Browsers */
 }
 
-/* line 100, ../scss/atoms/_typography.scss */
+/* line 101, ../scss/atoms/_typography.scss */
 *::-moz-selection {
   background: #FF7040;
   color: #fff;
