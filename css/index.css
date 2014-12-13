@@ -428,6 +428,7 @@ input[type="submit"]:last-child {
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 4px;
+  margin-top: 0;
   *zoom: 1;
   float: left;
   clear: none;
@@ -515,6 +516,8 @@ ul.social-links > li img {
 hr {
   border: none;
   border-top: solid 1px #E5D8CE;
+  margin-top: 0;
+  margin-bottom: 26px;
 }
 
 /* line 1, ../scss/molecules/_header.scss */

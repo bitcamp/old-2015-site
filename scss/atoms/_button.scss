@@ -3,9 +3,9 @@
 	padding-top: 12px;
 	padding-bottom: 12px;
 	border-radius: 4px;
+	margin-top: 0;
 	@include col(1/2, $offset:1/4);
 	@include breakpoint($bp-med){
 		@include col(1/3, $offset:1/3);
 	}
-	
 }
