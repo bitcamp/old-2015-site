@@ -646,23 +646,20 @@ header img {
   }
 }
 /* line 16, ../scss/molecules/_layout.scss */
-.wrapper-main ul.sponsors li:before, .wrapper-main ul.social-feed li:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-/* line 22, ../scss/molecules/_layout.scss */
 .wrapper-main ul.sponsors li img, .wrapper-main ul.social-feed li img {
-  vertical-align: middle;
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   max-width: 100%;
   border-radius: 4px;
 }
-/* line 27, ../scss/molecules/_layout.scss */
+/* line 21, ../scss/molecules/_layout.scss */
 .wrapper-main ul.sponsors li a, .wrapper-main ul.social-feed li a {
   line-height: 0;
 }
-/* line 32, ../scss/molecules/_layout.scss */
+/* line 26, ../scss/molecules/_layout.scss */
 .wrapper-main ul.social-links {
   *zoom: 1;
   width: auto;
@@ -683,12 +680,12 @@ header img {
 .wrapper-main ul.social-links:after {
   clear: both;
 }
-/* line 35, ../scss/molecules/_layout.scss */
+/* line 29, ../scss/molecules/_layout.scss */
 .wrapper-main h2.social {
   margin-bottom: 0;
 }
 
-/* line 39, ../scss/molecules/_layout.scss */
+/* line 33, ../scss/molecules/_layout.scss */
 header {
   *zoom: 1;
   width: auto;
@@ -711,7 +708,7 @@ header:after {
   clear: both;
 }
 @media (min-width: 46.8em) {
-  /* line 39, ../scss/molecules/_layout.scss */
+  /* line 33, ../scss/molecules/_layout.scss */
   header {
     *zoom: 1;
     width: auto;
@@ -733,7 +730,7 @@ header:after {
     clear: both;
   }
 }
-/* line 45, ../scss/molecules/_layout.scss */
+/* line 39, ../scss/molecules/_layout.scss */
 header div {
   *zoom: 1;
   width: auto;
@@ -755,7 +752,7 @@ header div:after {
   clear: both;
 }
 
-/* line 49, ../scss/molecules/_layout.scss */
+/* line 43, ../scss/molecules/_layout.scss */
 footer {
   padding-top: 52px;
   padding-bottom: 52px;
@@ -778,7 +775,7 @@ footer:before, footer:after {
 footer:after {
   clear: both;
 }
-/* line 53, ../scss/molecules/_layout.scss */
+/* line 47, ../scss/molecules/_layout.scss */
 footer .left {
   *zoom: 1;
   float: left;
@@ -801,7 +798,7 @@ footer .left:after {
 footer .left:last-child {
   margin-right: 0%;
 }
-/* line 56, ../scss/molecules/_layout.scss */
+/* line 50, ../scss/molecules/_layout.scss */
 footer .right {
   *zoom: 1;
   float: left;
@@ -824,7 +821,7 @@ footer .right:after {
 footer .right:last-child {
   margin-right: 0%;
 }
-/* line 58, ../scss/molecules/_layout.scss */
+/* line 52, ../scss/molecules/_layout.scss */
 footer .right li {
   float: right;
   display: inline;
