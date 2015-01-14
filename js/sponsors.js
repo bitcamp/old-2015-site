@@ -1,4 +1,4 @@
-(function ($) {
+/*(function ($) {
 	
 
     var Sponsor = Backbone.Model.extend({
@@ -55,3 +55,32 @@
     });
     var sponsor = new SponsorsView();
 } (jQuery));
+
+*/
+/* Tempory JS to render svgs simply */
+
+// First, checks if it isn't implemented yet.
+if (!String.prototype.format) {
+  String.prototype.format = function() {
+    var args = arguments;
+    return this.replace(/{(\d+)}/g, function(match, number) { 
+      return typeof args[number] != 'undefined'
+        ? args[number]
+        : match
+      ;
+    });
+  };
+}
+
+sponsorElement = '<li><a href="{0}"><img src="{1}" alt="{2}"></a></li>'
+
+$.getJSON("json/sponsors.json", function(data) {
+	console.log(data);
+	$.each(data, function(index) {
+		link = data[index]["link"];
+		photo  = data[index]["photo"];
+		name = data[index]["name"];
+		
+		$(".sponsors").append(sponsorElement.format(link, photo, name));
+	});
+});
