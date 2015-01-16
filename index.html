@@ -33,28 +33,59 @@
         <![endif]-->
 
     <!-- Add your site or application content here -->
+	<div class="wrapper">
+		<header>
+			<div id="header-top">
+				<div id="name"><h1>bitcamp</h1></div>
+				<nav>
+					<li id="navigation">
+						<ul><a href="#">About</a></ul>
+						<ul><a href="#">Sponsors</a></ul>
+						<ul><a href="#">Manifesto</a></ul>
+						<ul><a href="#">Contact</a></ul>
+					</li>
+				</nav>
+			</div>
+			<div id="header-middle">
+				<div id="date">April 10-12, 2015</div>
+				<div id="logo"><img src="#" alt="bitcamp logo" /></div>
+				<div id="location">College Park, MD</div>
+			</div>
+			<div id="header-tagline"><h2>IMAGINE TOMORROW</h2></div>
+			<div id="hacker-cta"><a href="#">SIGN UP TODAY</a></div>
+			<div id="header-social-links"></div>
+		</header>
+		<div id="description">
+			<h3>About</h3>
+			<p>Normcore tattooed ethical, hashtag tousled Thunder mustache Argyle Brewing Company craft beer taxidermy. Mars riboflavin, sartorial lorem ipsum dolorem.</p>
+		</div>
+		<div id="hype-box">
+			<div id="hype-number">36</div>
+			<div id="hype-label">hours of hacking</div>
+		<div>
+		<div id="sponsor-box">
+			<h3>Sponsors</h3>
+			<div id="sponsors"></div>
+			<div id="sponsor-cta"><a href="#">BECOME A SPONSOR</a></div>
+		</div>
+		<div id="photo-box">
+			<img src="#" alt="" id="hype-photo" />
+		</div>
+		<div id="imagine-box">
+			<h4>IMAGINE TOMORROW</h4>
+			<p>Normcore tattooed ethical, hashtag tousled Thunder mustache Argyle Brewing Company craft beer taxidermy. Mars riboflavin, sartorial lorem ipsum dolorem.</p>
+			<div id="inspiration-boxes"></div>
+		</div>
 
-	<!--
-       <footer>
-        <hr>
-        <ul class="left">
-            <small>&copy; Bitcamp 2015</small>
-        </ul>
-        <ul class="right">
-            <ul>
-                <a href="http://2014.bitca.mp">
-                    <li>2014 Website</li>
-                </a>
-                <a href="#">
-                    <li>Volunteer</li>
-                </a>
-                <a href="mailto:hello@bitca.mp">
-                    <li>Contact</li>
-                </a>
-            </ul>
-        </ul>
-    </footer>
-	-->
+		<!-- This div is for a compass powered sticky footer -->
+		<div id="root_footer"></div>
+	</div>
+
+	<footer id="footer">
+		<div id="copyright">&copy; 2014 Bitcamp</div>
+		<div id="footer-social-links"></div>
+	</footer>
+
     <script id="sponsorTemplate" type="text/template">
         
             <a href="<%= link %>"><img alt="<%= name %>" src="<%= photo %>" /></a>
