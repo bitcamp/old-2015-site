@@ -1,3 +1,26 @@
 .wrapper-main {
 	text-align: center;
 }
+.header-top {
+	@include cf();
+	padding-top: 2em;
+	padding-left: .5em;
+	padding-right: .5em;
+	max-width: $max-width;
+	margin: auto;
+	div.name {
+		float: left;
+	}
+	nav {
+		margin-bottom: 0;
+		float: right;
+		list-style-type: none;
+		ul {
+			padding-top: .5em;
+		}
+		li {
+			display: inline-block;
+			margin-left: .5em;
+		}
+	}
+}
