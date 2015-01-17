@@ -43,6 +43,9 @@ ul {
 }
 p {
    color: $dark-brown;
+   max-width: $bp-small;
+   margin: auto;
+   text-align: center;
 }
 .btn {
     font-family: $font-secondary;

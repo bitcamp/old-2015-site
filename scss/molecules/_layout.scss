@@ -1,6 +1,9 @@
 .wrapper-main {
 	text-align: center;
 }
+header {
+	height: 650px;
+}
 .header-top {
 	@include cf();
 	padding-top: 2em;
@@ -50,7 +53,22 @@
 }
 .header-tagline {
 	max-width: $bp-small;
-	margin: auto;
-	margin-top: 1.5em;
+	margin: 1.75em auto;
 }
+.social-links {
+	margin: 2em;
+}
+.wrapper {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+.description {}
+.hype {
+	background: $midnight-blue;
+}
+.sponsors {
 
+}
+.imagine {
+	
+}
