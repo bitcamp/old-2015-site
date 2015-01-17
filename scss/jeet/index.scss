@@ -11,16 +11,7 @@
   align($direction: both)
   cf()
 */
-@import 'breakpoint';
-@import 'fonts/fonts';
-@import 'base/_reset';
-@import 'base/_variables';
-@import 'base/_mixins';
-@import 'jeet/index';
-@import 'atoms/_typography';
-@import 'molecules/_header';
-@import 'molecules/_layout';
-// must be last iot work
-//@import 'atoms/_animations';
-// @include edit();
 
+@import '_settings';
+@import '_functions';
+@import '_grid';
