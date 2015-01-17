@@ -1,8 +1,19 @@
 .wrapper-main {
-    
+    text-align: center;
 }
 header {
-
+    div.header-top {
+        backgroud-color: blue;
+        .main-nav {
+            a {
+            }
+            li {
+            }
+        }
+    }
+    div.header-middle {
+        //backround: image-url("bitcamp/bitcamp-logo-icon.svg");
+    }   
 }
 footer {
    

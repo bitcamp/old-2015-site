@@ -217,7 +217,7 @@ html {
 
 /* line 4, ../scss/atoms/_typography.scss */
 body {
-  font-family: "Lato", "Casper", "Helvetica", sans-serif;
+  font-family: "Aleo", "sexay font", Times, serif;
   font-size: medium;
   font-size: 1rem;
   line-height: 1.45;
@@ -225,22 +225,77 @@ body {
 }
 
 /* line 10, ../scss/atoms/_typography.scss */
-h1 {
+h2, h3, h4 {
   font-family: "Lato", "Casper", "Helvetica", sans-serif;
+  text-transform: uppercase;
+  color: #1a2e33;
   font-weight: bold;
+}
+
+/* line 16, ../scss/atoms/_typography.scss */
+h1 {
+  font-family: "Aleo", "sexay font", Times, serif;
   font-size: 27px;
   font-size: 1.5rem;
   color: #fff;
 }
 
-/* line 22, ../scss/atoms/_typography.scss */
+/* line 21, ../scss/atoms/_typography.scss */
+h2 {
+  font-size: 72px;
+  font-size: 4rem;
+}
+
+/* line 24, ../scss/atoms/_typography.scss */
+h3 {
+  font-size: 13.5px;
+  font-size: 0.75rem;
+}
+
+/* line 30, ../scss/atoms/_typography.scss */
 a {
   font-size: medium;
   font-size: 1rem;
-  color: #528CA5;
+  color: #fff;
   font-weight: bold;
   text-decoration: none;
   line-height: 26px;
   margin-top: 26px;
   margin-bottom: 26px;
+}
+
+/* line 40, ../scss/atoms/_typography.scss */
+ul a {
+  font-weight: bold;
+  color: #528CA5;
+}
+
+/* line 45, ../scss/atoms/_typography.scss */
+p {
+  color: #7F6C5F;
+}
+
+/* line 48, ../scss/atoms/_typography.scss */
+.btn {
+  font-family: "Lato", "Casper", "Helvetica", sans-serif;
+}
+
+/* line 54, ../scss/atoms/_typography.scss */
+#date, #location {
+  color: #fff;
+}
+
+/* line 1, ../scss/molecules/_header.scss */
+header {
+  background: #CBF2FF;
+}
+
+/* line 1, ../scss/molecules/_layout.scss */
+.wrapper-main {
+  text-align: center;
+}
+
+/* line 5, ../scss/molecules/_layout.scss */
+header div.header-top {
+  backgroud-color: blue;
 }

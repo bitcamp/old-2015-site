@@ -2,29 +2,55 @@ html {
     font-size: 18px;
 }
 body {
-    font-family: $font-secondary;
+    font-family: $font;
     @include font-size(1, medium);
     line-height: 1.45;
     color: $medium-blue;
 }
-h1 {
+h2, h3, h4 {
     font-family: $font-secondary;
+    text-transform: uppercase;
+    color: $midnight-blue;
     font-weight: bold;
+}
+h1 { 
+    font-family: $font;
     @include font-size(1.5);
     color: $white;
 }
 h2 {
+    @include font-size(4);
 }
-h3 {
-}
+h3 {	
+    @include font-size(.75);
+}	
 h4 {
+
 }
 a {
     @include font-size(1, medium);
-    color: $medium-blue;
+    color: $white;
     font-weight: bold;
     text-decoration: none;
     line-height: 26px;
     margin-top: 26px;
     margin-bottom: 26px;
+}
+ul {
+    a {
+	font-weight: bold;
+        color: $medium-blue;
+    }
+}
+p {
+   color: $dark-brown;
+}
+.btn {
+    font-family: $font-secondary;
+}
+#hype {
+   //color: $white;
+}
+#date, #location {
+    color: $white;
 }
