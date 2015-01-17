@@ -9,18 +9,42 @@
 	max-width: $max-width;
 	margin: auto;
 	div.name {
-		float: left;
+		@media screen and (min-width: $bp-med) {
+			float: left;
+		}
 	}
 	nav {
 		margin-bottom: 0;
-		float: right;
+		@media screen and (min-width: $bp-med) {
+			float: right;
+		}
 		list-style-type: none;
 		ul {
 			padding-top: .5em;
 		}
 		li {
-			display: inline-block;
+			@media screen and (min-width: $bp-med) {
+				display: inline-block;
+			}
 			margin-left: .5em;
+		}
+	}
+}
+.header-info {
+	@media screen and (min-width: $bp-med) {
+		width: $bp-med;
+		margin: auto;
+		margin-top: 6em;
+		.date, .location {
+			display: inline-block;
+		}
+		.logo {
+			display: inline-block;
+			margin: 0 2em;
+			img {
+				height: 50px;
+				width: 50px;
+			}
 		}
 	}
 }

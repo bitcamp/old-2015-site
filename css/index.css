@@ -330,22 +330,57 @@ header {
 .header-top:after {
   clear: both;
 }
-/* line 11, ../scss/molecules/_layout.scss */
-.header-top div.name {
-  float: left;
+@media screen and (min-width: 46.8em) {
+  /* line 11, ../scss/molecules/_layout.scss */
+  .header-top div.name {
+    float: left;
+  }
 }
-/* line 14, ../scss/molecules/_layout.scss */
+/* line 16, ../scss/molecules/_layout.scss */
 .header-top nav {
   margin-bottom: 0;
-  float: right;
   list-style-type: none;
 }
-/* line 18, ../scss/molecules/_layout.scss */
+@media screen and (min-width: 46.8em) {
+  /* line 16, ../scss/molecules/_layout.scss */
+  .header-top nav {
+    float: right;
+  }
+}
+/* line 22, ../scss/molecules/_layout.scss */
 .header-top nav ul {
   padding-top: .5em;
 }
-/* line 21, ../scss/molecules/_layout.scss */
+/* line 25, ../scss/molecules/_layout.scss */
 .header-top nav li {
-  display: inline-block;
   margin-left: .5em;
+}
+@media screen and (min-width: 46.8em) {
+  /* line 25, ../scss/molecules/_layout.scss */
+  .header-top nav li {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 46.8em) {
+  /* line 33, ../scss/molecules/_layout.scss */
+  .header-info {
+    width: 46.8em;
+    margin: auto;
+    margin-top: 6em;
+  }
+  /* line 38, ../scss/molecules/_layout.scss */
+  .header-info .date, .header-info .location {
+    display: inline-block;
+  }
+  /* line 41, ../scss/molecules/_layout.scss */
+  .header-info .logo {
+    display: inline-block;
+    margin: 0 2em;
+  }
+  /* line 44, ../scss/molecules/_layout.scss */
+  .header-info .logo img {
+    height: 50px;
+    width: 50px;
+  }
 }
