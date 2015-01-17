@@ -257,15 +257,17 @@ h1 {
 h2 {
   font-size: 72px;
   font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.15em;
 }
 
-/* line 24, ../scss/atoms/_typography.scss */
+/* line 26, ../scss/atoms/_typography.scss */
 h3 {
   font-size: 13.5px;
   font-size: 0.75rem;
 }
 
-/* line 30, ../scss/atoms/_typography.scss */
+/* line 32, ../scss/atoms/_typography.scss */
 a {
   font-size: medium;
   font-size: 1rem;
@@ -274,23 +276,23 @@ a {
   text-decoration: none;
 }
 
-/* line 37, ../scss/atoms/_typography.scss */
+/* line 39, ../scss/atoms/_typography.scss */
 ul a {
   font-weight: normal;
   color: #528CA5;
 }
 
-/* line 42, ../scss/atoms/_typography.scss */
+/* line 44, ../scss/atoms/_typography.scss */
 p {
   color: #7F6C5F;
 }
 
-/* line 45, ../scss/atoms/_typography.scss */
+/* line 47, ../scss/atoms/_typography.scss */
 .btn {
   font-family: "Lato", "Casper", "Helvetica", sans-serif;
 }
 
-/* line 51, ../scss/atoms/_typography.scss */
+/* line 53, ../scss/atoms/_typography.scss */
 #date, #location {
   color: #fff;
 }
@@ -383,4 +385,11 @@ header {
     height: 50px;
     width: 50px;
   }
+}
+
+/* line 51, ../scss/molecules/_layout.scss */
+.header-tagline {
+  max-width: 24em;
+  margin: auto;
+  margin-top: 1.5em;
 }
