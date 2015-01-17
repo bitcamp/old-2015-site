@@ -52,8 +52,9 @@ header {
 	}
 }
 .header-tagline {
-	max-width: $bp-small;
+	width: $bp-small-2;
 	margin: 1.75em auto;
+	text-align: center;
 }
 .social-links {
 	margin: 2em;

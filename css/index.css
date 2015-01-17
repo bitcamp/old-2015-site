@@ -328,7 +328,7 @@ header {
   padding-top: 2em;
   padding-left: .5em;
   padding-right: .5em;
-  max-width: 72em;
+  max-width: 48em;
   margin: auto;
 }
 /* line 344, ../scss/jeet/_grid.scss */
@@ -397,22 +397,23 @@ header {
 
 /* line 54, ../scss/molecules/_layout.scss */
 .header-tagline {
-  max-width: 24em;
+  width: 29.75em;
   margin: 1.75em auto;
+  text-align: center;
 }
 
-/* line 58, ../scss/molecules/_layout.scss */
+/* line 59, ../scss/molecules/_layout.scss */
 .social-links {
   margin: 2em;
 }
 
-/* line 61, ../scss/molecules/_layout.scss */
+/* line 62, ../scss/molecules/_layout.scss */
 .wrapper {
   padding-top: 6em;
   padding-bottom: 6em;
 }
 
-/* line 66, ../scss/molecules/_layout.scss */
+/* line 67, ../scss/molecules/_layout.scss */
 .hype {
   background: #1a2e33;
 }
