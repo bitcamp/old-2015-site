@@ -1,30 +1,3 @@
 .wrapper-main {
-    text-align: center;
-}
-header {
-    div.header-top {
-	div#name {
-	    @include col(1/5);
-	    float: left;	
-	}
-        nav {
-	    list-style-type: none;
-            a {
-		@include col(1/5);
-		float: right;
-            }
-        }
-    }
-    div.header-middle {
-	@include center();
-	div#date, div#logo, div#location {
-            @include span(1/3);
-        }
-	
-    }
-    div.header-tagline { 
-    }   
-}
-footer {
-   
+	text-align: center;
 }
