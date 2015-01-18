@@ -312,6 +312,17 @@ header {
   background: #CBF2FF;
 }
 
+/* line 2, ../scss/molecules/_social.scss */
+.social-links li {
+  display: inline-block;
+  padding: 0 .5em;
+}
+/* line 5, ../scss/molecules/_social.scss */
+.social-links li img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
 /* line 1, ../scss/molecules/_layout.scss */
 .wrapper-main {
   text-align: center;
