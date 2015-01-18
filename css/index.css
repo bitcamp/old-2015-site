@@ -417,3 +417,13 @@ header {
 .hype {
   background: #1a2e33;
 }
+
+/* line 71, ../scss/molecules/_layout.scss */
+.sponsors h3 {
+  margin-bottom: 3em;
+}
+
+/* line 78, ../scss/molecules/_layout.scss */
+footer {
+  text-align: center;
+}
