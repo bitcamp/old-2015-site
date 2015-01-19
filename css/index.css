@@ -32,6 +32,20 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("fonts/AvenirNextLTProRegular.eot");
+  src: url("fonts/AvenirNextLTProRegular.eot") format("embedded-opentype"), url("fonts/AvenirNextLTProRegular.woff2") format("woff2"), url("fonts/AvenirNextLTProRegular.woff") format("woff"), url("fonts/AvenirNextLTProRegular.ttf") format("truetype"), url("fonts/AvenirNextLTProRegular.svg#AvenirNextLTProRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("../fonts/Avenir Next/AvenirNextLTProBold.eot");
+  src: url("../fonts/Avenir Next/AvenirNextLTProBold.eot") format("embedded-opentype"), url("../fonts/Avenir Next/AvenirNextLTProBold.woff2") format("woff2"), url("../fonts/Avenir Next/AvenirNextLTProBold.woff") format("woff"), url("../fonts/Avenir Next/AvenirNextLTProBold.ttf") format("truetype"), url("../fonts/Avenir Next/AvenirNextLTProBold.svg#AvenirNextLTProBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
 /* line 1, ../scss/base/_reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   border: 0;
@@ -238,7 +252,7 @@ body {
 
 /* line 8, ../scss/atoms/_typography.scss */
 h2, h3, h4 {
-  font-family: "Lato", "Casper", "Helvetica", sans-serif;
+  font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
   text-transform: uppercase;
   color: #1a2e33;
   font-weight: bold;
@@ -256,7 +270,8 @@ h1 {
 h2 {
   font-size: 2em;
   line-height: 1.5em;
-  font-weight: 900;
+  font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
+  font-weight: bold;
   line-height: 1.15em;
 }
 @media screen and (min-width: 46.8em) {
@@ -267,26 +282,26 @@ h2 {
   }
 }
 
-/* line 29, ../scss/atoms/_typography.scss */
+/* line 30, ../scss/atoms/_typography.scss */
 h4 {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 
-/* line 32, ../scss/atoms/_typography.scss */
+/* line 33, ../scss/atoms/_typography.scss */
 a {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 38, ../scss/atoms/_typography.scss */
+/* line 39, ../scss/atoms/_typography.scss */
 ul a {
   font-weight: normal;
   color: #528CA5;
 }
 
-/* line 43, ../scss/atoms/_typography.scss */
+/* line 44, ../scss/atoms/_typography.scss */
 p {
   color: #7F6C5F;
   max-width: 24em;
@@ -294,12 +309,12 @@ p {
   text-align: center;
 }
 
-/* line 49, ../scss/atoms/_typography.scss */
+/* line 50, ../scss/atoms/_typography.scss */
 .btn {
   font-family: "Lato", "Casper", "Helvetica", sans-serif;
 }
 
-/* line 55, ../scss/atoms/_typography.scss */
+/* line 56, ../scss/atoms/_typography.scss */
 #date, #location {
   color: #fff;
 }

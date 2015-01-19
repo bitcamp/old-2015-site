@@ -6,7 +6,7 @@ body {
     color: $medium-blue;
 }
 h2, h3, h4 {
-    font-family: $font-secondary;
+    font-family: $font-subheading;
     text-transform: uppercase;
     color: $midnight-blue;
     font-weight: bold;
@@ -21,7 +21,8 @@ h2 {
     @media screen and (min-width: $bp-med) {
         @include adjust-font-size-to($font-size-large);
     }
-    font-weight: 900;
+    font-family: $font-subheading;
+    font-weight: bold;
     line-height: 1.15em;
 }
 h3 {	
