@@ -21,6 +21,9 @@ h2 {
     @media screen and (min-width: $bp-med) {
         @include adjust-font-size-to($font-size-large);
     }
+    @media screen and (min-width: $bp-small-2) and (max-width: $bp-med) {
+        @include adjust-font-size-to($font-size-med-2);
+    }
     font-family: $font-subheading;
     font-weight: bold;
     line-height: 1.15em;
