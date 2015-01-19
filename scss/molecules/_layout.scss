@@ -35,7 +35,6 @@ header {
 }
 .header-info {
 	@media screen and (min-width: $bp-med) {
-		width: $bp-med;
 		margin: auto;
 		margin-top: 6em;
 		.date, .location {
@@ -52,7 +51,6 @@ header {
 	}
 }
 .header-tagline {
-	width: $bp-small-2;
 	margin: 1.75em auto;
 	text-align: center;
 }

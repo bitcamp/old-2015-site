@@ -19,7 +19,10 @@ h1 {
     color: $white;
 }
 h2 {
-    @include font-size(4);
+    @include font-size(2);
+    @media screen and (min-width: $bp-med) {
+        @include font-size(4);
+    }
     font-weight: 900;
     line-height: 1.15em;
 }
