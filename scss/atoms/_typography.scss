@@ -51,7 +51,9 @@ p {
    text-align: center;
 }
 .btn {
-    font-family: $font-secondary;
+    font-family: $font-subheading;
+    @include adjust-font-size-to($font-size-small-2);
+    font-weight: bold;
 }
 #hype {
    //color: $white;

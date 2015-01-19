@@ -318,10 +318,13 @@ p {
 
 /* line 53, ../scss/atoms/_typography.scss */
 .btn {
-  font-family: "Lato", "Casper", "Helvetica", sans-serif;
+  font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
+  font-size: 1.25em;
+  line-height: 1.2em;
+  font-weight: bold;
 }
 
-/* line 59, ../scss/atoms/_typography.scss */
+/* line 61, ../scss/atoms/_typography.scss */
 #date, #location {
   color: #fff;
 }
@@ -329,8 +332,14 @@ p {
 /* line 1, ../scss/atoms/_button.scss */
 .btn {
   background-color: #FF7040;
-  padding: 12px 24px;
   border-radius: 4px;
+  padding: 18px 28px 13px 28px;
+}
+@media screen and (min-width: 29.75em) {
+  /* line 1, ../scss/atoms/_button.scss */
+  .btn {
+    padding: 18px 56px 13px 56px;
+  }
 }
 
 /* line 1, ../scss/molecules/_header.scss */
@@ -354,12 +363,12 @@ header {
   text-align: center;
 }
 
-/* line 6, ../scss/molecules/_layout.scss */
+/* line 7, ../scss/molecules/_layout.scss */
 header {
   height: 650px;
 }
 
-/* line 9, ../scss/molecules/_layout.scss */
+/* line 10, ../scss/molecules/_layout.scss */
 .header-top {
   *zoom: 1;
   margin-top: 0em;
@@ -381,7 +390,7 @@ header {
   clear: both;
 }
 @media screen and (min-width: 29.75em) {
-  /* line 16, ../scss/molecules/_layout.scss */
+  /* line 17, ../scss/molecules/_layout.scss */
   .header-top div.name {
     float: left;
     margin-top: 0em;
@@ -390,12 +399,12 @@ header {
     margin-bottom: 0em;
   }
 }
-/* line 22, ../scss/molecules/_layout.scss */
+/* line 23, ../scss/molecules/_layout.scss */
 .header-top nav {
   list-style-type: none;
 }
 @media screen and (min-width: 29.75em) {
-  /* line 22, ../scss/molecules/_layout.scss */
+  /* line 23, ../scss/molecules/_layout.scss */
   .header-top nav {
     float: right;
     margin-top: 0em;
@@ -404,19 +413,19 @@ header {
     margin-bottom: 0em;
   }
 }
-/* line 28, ../scss/molecules/_layout.scss */
+/* line 29, ../scss/molecules/_layout.scss */
 .header-top nav li {
   margin-left: .5em;
 }
 @media screen and (min-width: 29.75em) {
-  /* line 28, ../scss/molecules/_layout.scss */
+  /* line 29, ../scss/molecules/_layout.scss */
   .header-top nav li {
     display: inline-block;
   }
 }
 
 @media screen and (min-width: 29.75em) {
-  /* line 36, ../scss/molecules/_layout.scss */
+  /* line 37, ../scss/molecules/_layout.scss */
   .header-info {
     margin: auto;
     margin-top: 0em;
@@ -424,23 +433,23 @@ header {
     padding-bottom: 0em;
     margin-bottom: 0em;
   }
-  /* line 40, ../scss/molecules/_layout.scss */
+  /* line 41, ../scss/molecules/_layout.scss */
   .header-info .date, .header-info .location {
     display: inline-block;
   }
-  /* line 43, ../scss/molecules/_layout.scss */
+  /* line 44, ../scss/molecules/_layout.scss */
   .header-info .logo {
     display: inline-block;
     margin: 0 2em;
   }
-  /* line 46, ../scss/molecules/_layout.scss */
+  /* line 47, ../scss/molecules/_layout.scss */
   .header-info .logo img {
     height: 50px;
     width: 50px;
   }
 }
 
-/* line 53, ../scss/molecules/_layout.scss */
+/* line 54, ../scss/molecules/_layout.scss */
 .header-tagline {
   margin-top: 0em;
   padding-top: 3em;
@@ -449,7 +458,7 @@ header {
   text-align: center;
 }
 
-/* line 57, ../scss/molecules/_layout.scss */
+/* line 58, ../scss/molecules/_layout.scss */
 .social-links {
   margin-top: 0em;
   padding-top: 1.5em;
@@ -457,7 +466,7 @@ header {
   margin-bottom: 0em;
 }
 
-/* line 60, ../scss/molecules/_layout.scss */
+/* line 61, ../scss/molecules/_layout.scss */
 .wrapper {
   margin-top: 0em;
   padding-top: 4.5em;
@@ -465,17 +474,17 @@ header {
   margin-bottom: 0em;
 }
 
-/* line 64, ../scss/molecules/_layout.scss */
+/* line 65, ../scss/molecules/_layout.scss */
 .hype {
   background: #1a2e33;
 }
 
-/* line 68, ../scss/molecules/_layout.scss */
+/* line 69, ../scss/molecules/_layout.scss */
 .sponsors h3 {
   margin-bottom: 3em;
 }
 
-/* line 75, ../scss/molecules/_layout.scss */
+/* line 76, ../scss/molecules/_layout.scss */
 footer {
   text-align: center;
 }
