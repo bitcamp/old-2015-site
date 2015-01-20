@@ -49,6 +49,7 @@ p {
    max-width: $bp-small;
    margin: auto;
    text-align: center;
+   @include adjust-font-size-to($font-size-small-2);
 }
 .btn {
     font-family: $font-subheading;
