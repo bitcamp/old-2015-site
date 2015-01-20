@@ -55,9 +55,21 @@ p {
     @include adjust-font-size-to($font-size-small-2);
     font-weight: bold;
 }
-#hype {
-   //color: $white;
+.hype {
+    color: $white;
+    div.hype-number {
+        font-family: $font-subheading;
+        @include adjust-font-size-to($font-size-large);
+    }
+    div.hype-label {	
+        @include adjust-font-size-to($font-size-med);
+    }
 }
 #date, #location {
+    color: $white;
+}
+.inspiration {
+    font-family: $font-subheading;
+    font-weight: bold;
     color: $white;
 }

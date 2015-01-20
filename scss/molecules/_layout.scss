@@ -71,8 +71,17 @@ header {
 	}
 }
 .imagine {
-	
+	div.inspiration {
+		background: $flame-red;
+		display: inline-block;
+	}
 }
 footer {
 	text-align: center;
+}
+.inspiration {
+	padding: 6px;
+	border-radius: 4px;
+	padding: 12px 6px;
+	@include col(1/4);
 }

@@ -324,8 +324,31 @@ p {
   font-weight: bold;
 }
 
-/* line 61, ../scss/atoms/_typography.scss */
+/* line 58, ../scss/atoms/_typography.scss */
+.hype {
+  color: #fff;
+}
+/* line 60, ../scss/atoms/_typography.scss */
+.hype div.hype-number {
+  font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
+  font-size: 5em;
+  line-height: 1.2em;
+}
+/* line 64, ../scss/atoms/_typography.scss */
+.hype div.hype-label {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+/* line 68, ../scss/atoms/_typography.scss */
 #date, #location {
+  color: #fff;
+}
+
+/* line 71, ../scss/atoms/_typography.scss */
+.inspiration {
+  font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
+  font-weight: bold;
   color: #fff;
 }
 
@@ -484,7 +507,40 @@ header {
   margin-bottom: 3em;
 }
 
-/* line 76, ../scss/molecules/_layout.scss */
+/* line 74, ../scss/molecules/_layout.scss */
+.imagine div.inspiration {
+  background: #FF3F46;
+  display: inline-block;
+}
+
+/* line 79, ../scss/molecules/_layout.scss */
 footer {
   text-align: center;
+}
+
+/* line 82, ../scss/molecules/_layout.scss */
+.inspiration {
+  padding: 6px;
+  border-radius: 4px;
+  padding: 12px 6px;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+/* line 344, ../scss/jeet/_grid.scss */
+.inspiration:before, .inspiration:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../scss/jeet/_grid.scss */
+.inspiration:after {
+  clear: both;
+}
+/* line 58, ../scss/jeet/_grid.scss */
+.inspiration:last-child {
+  margin-right: 0%;
 }
