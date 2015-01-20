@@ -289,26 +289,26 @@ h2 {
   }
 }
 
-/* line 33, ../scss/atoms/_typography.scss */
-h4 {
-  font-size: 1.25em;
-  line-height: 1.2em;
+/* line 31, ../scss/atoms/_typography.scss */
+h3, h4 {
+  font-size: 1.6em;
+  line-height: 1.875em;
 }
 
-/* line 36, ../scss/atoms/_typography.scss */
+/* line 34, ../scss/atoms/_typography.scss */
 a {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 42, ../scss/atoms/_typography.scss */
+/* line 40, ../scss/atoms/_typography.scss */
 ul a {
   font-weight: normal;
   color: #528CA5;
 }
 
-/* line 47, ../scss/atoms/_typography.scss */
+/* line 45, ../scss/atoms/_typography.scss */
 p {
   color: #7F6C5F;
   max-width: 24em;
@@ -318,7 +318,7 @@ p {
   line-height: 1.2em;
 }
 
-/* line 54, ../scss/atoms/_typography.scss */
+/* line 52, ../scss/atoms/_typography.scss */
 .btn {
   font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
   font-size: 1.25em;
@@ -326,28 +326,28 @@ p {
   font-weight: bold;
 }
 
-/* line 59, ../scss/atoms/_typography.scss */
+/* line 57, ../scss/atoms/_typography.scss */
 .hype {
   color: #fff;
 }
-/* line 61, ../scss/atoms/_typography.scss */
+/* line 59, ../scss/atoms/_typography.scss */
 .hype div.hype-number {
   font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
   font-size: 5em;
   line-height: 1.2em;
 }
-/* line 65, ../scss/atoms/_typography.scss */
+/* line 63, ../scss/atoms/_typography.scss */
 .hype div.hype-label {
   font-size: 2em;
   line-height: 1.5em;
 }
 
-/* line 69, ../scss/atoms/_typography.scss */
+/* line 67, ../scss/atoms/_typography.scss */
 #date, #location {
   color: #fff;
 }
 
-/* line 72, ../scss/atoms/_typography.scss */
+/* line 70, ../scss/atoms/_typography.scss */
 .inspiration {
   font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
   font-weight: bold;
@@ -527,18 +527,131 @@ header {
   background: #1a2e33;
 }
 
-/* line 66, ../scss/molecules/_layout.scss */
-.sponsors h3 {
-  margin-bottom: 3em;
+/* line 65, ../scss/molecules/_layout.scss */
+.sponsors {
+  *zoom: 1;
+  width: auto;
+  max-width: 48em;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 2em;
+}
+/* line 344, ../scss/jeet/_grid.scss */
+.sponsors:before, .sponsors:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../scss/jeet/_grid.scss */
+.sponsors:after {
+  clear: both;
+}
+/* line 68, ../scss/molecules/_layout.scss */
+.sponsors li {
+  display: block;
+  clear: both;
+  float: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 265, ../scss/jeet/_grid.scss */
+.sponsors li:first-child {
+  margin-left: auto;
+}
+/* line 269, ../scss/jeet/_grid.scss */
+.sponsors li:last-child {
+  margin-right: auto;
+}
+@media (min-width: 29.75em) {
+  /* line 68, ../scss/molecules/_layout.scss */
+  .sponsors li {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  /* line 344, ../scss/jeet/_grid.scss */
+  .sponsors li:before, .sponsors li:after {
+    content: '';
+    display: table;
+  }
+  /* line 349, ../scss/jeet/_grid.scss */
+  .sponsors li:after {
+    clear: both;
+  }
+  /* line 40, ../scss/jeet/_grid.scss */
+  .sponsors li:nth-of-type(3n) {
+    margin-right: 3%;
+    float: left;
+  }
+  /* line 44, ../scss/jeet/_grid.scss */
+  .sponsors li:nth-of-type(3n + 1) {
+    clear: none;
+  }
+  /* line 50, ../scss/jeet/_grid.scss */
+  .sponsors li:nth-of-type(2n) {
+    margin-right: 0%;
+    float: right;
+  }
+  /* line 54, ../scss/jeet/_grid.scss */
+  .sponsors li:nth-of-type(2n + 1) {
+    clear: both;
+  }
+}
+@media (min-width: 48em) {
+  /* line 68, ../scss/molecules/_layout.scss */
+  .sponsors li {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 31.33333%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  /* line 344, ../scss/jeet/_grid.scss */
+  .sponsors li:before, .sponsors li:after {
+    content: '';
+    display: table;
+  }
+  /* line 349, ../scss/jeet/_grid.scss */
+  .sponsors li:after {
+    clear: both;
+  }
+  /* line 40, ../scss/jeet/_grid.scss */
+  .sponsors li:nth-of-type(2n) {
+    margin-right: 3%;
+    float: left;
+  }
+  /* line 44, ../scss/jeet/_grid.scss */
+  .sponsors li:nth-of-type(2n + 1) {
+    clear: none;
+  }
+  /* line 50, ../scss/jeet/_grid.scss */
+  .sponsors li:nth-of-type(3n) {
+    margin-right: 0%;
+    float: right;
+  }
+  /* line 54, ../scss/jeet/_grid.scss */
+  .sponsors li:nth-of-type(3n + 1) {
+    clear: both;
+  }
 }
 
-/* line 70, ../scss/molecules/_layout.scss */
+/* line 78, ../scss/molecules/_layout.scss */
 .photos {
   background: #1a2e33;
   height: 20em;
 }
 
-/* line 74, ../scss/molecules/_layout.scss */
+/* line 82, ../scss/molecules/_layout.scss */
 .imagine {
   *zoom: 1;
 }
@@ -552,7 +665,7 @@ header {
   clear: both;
 }
 
-/* line 77, ../scss/molecules/_layout.scss */
+/* line 85, ../scss/molecules/_layout.scss */
 .inspiration-boxes {
   *zoom: 1;
   width: auto;
@@ -574,7 +687,7 @@ header {
   clear: both;
 }
 
-/* line 80, ../scss/molecules/_layout.scss */
+/* line 88, ../scss/molecules/_layout.scss */
 .inspiration {
   background: #FF3F46;
   border-radius: 4px;
@@ -605,7 +718,7 @@ header {
   clear: both;
 }
 @media (max-width: 66em) {
-  /* line 80, ../scss/molecules/_layout.scss */
+  /* line 88, ../scss/molecules/_layout.scss */
   .inspiration {
     *zoom: 1;
     float: left;
@@ -644,13 +757,13 @@ header {
   }
 }
 @media (max-width: 48em) {
-  /* line 80, ../scss/molecules/_layout.scss */
+  /* line 88, ../scss/molecules/_layout.scss */
   .inspiration {
     display: none;
   }
 }
 
-/* line 92, ../scss/molecules/_layout.scss */
+/* line 100, ../scss/molecules/_layout.scss */
 footer {
   text-align: center;
 }

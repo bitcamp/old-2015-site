@@ -28,10 +28,8 @@ h2 {
     font-weight: bold;
     line-height: 1.15em;
 }
-h3 {	
-}	
-h4 {
-    @include adjust-font-size-to($font-size-small-2);
+h3, h4 {
+    @include adjust-font-size-to($font-size-small-3);
 }
 a {
     color: $white;
