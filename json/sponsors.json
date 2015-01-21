@@ -3,7 +3,8 @@
         {
             "name": "Oculus VR",
             "photo": "img/sponsors/oculus.svg",
-            "link": "https://www.oculus.com/"
+            "link": "https://www.oculus.com/",
+            "level": 2
         },
 
         {
@@ -14,22 +15,32 @@
         {
             "name": "Leidos",
             "photo": "img/sponsors/leidos.svg",
-            "link": "https://www.leidos.com/"
+            "link": "https://www.leidos.com/",
+            "level": 3
         },
         {
             "name": "Cipher Tech Solutions",
             "photo": "img/sponsors/cipher.svg",
-            "link": "http://www.ciphertechsolutions.com/"
+            "link": "http://www.ciphertechsolutions.com/",
+            "level": 4
         },
 
         {
             "name": "OPIS",
             "photo": "img/sponsors/opis.svg",
-            "link": "http://www.opisnet.com/"
+            "link": "http://www.opisnet.com/",
+            "level": 4
         },
         {
             "name": "Goldman Sachs",
             "photo": "img/sponsors/goldman.svg",
-            "link": "http://www.goldmansachs.com/"
+            "link": "http://www.goldmansachs.com/",
+            "level": 4
+        },
+	{
+            "name": "Facebook",
+            "photo": "img/sponsors/facebook.svg",
+            "link": "http://www.facebook.com/",
+            "level": 4
         }
     ]

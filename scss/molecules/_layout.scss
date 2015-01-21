@@ -7,7 +7,7 @@
 }
 header {
 	ul.social-links {
-		@include rhythm(0, 1, 2, 0);
+		@include rhythm(0, 2, 2, 0);
 	}
 }
 .header-top {
@@ -21,7 +21,7 @@ header {
 		float: left;		
 		text-align: left;
 		@media screen and (min-width: $bp-small-2) {
-			@include rhythm(0, 1/3, 0, 0);
+			@include rhythm(0, 1, 0, 0);
 		}
 	}
 }
@@ -82,7 +82,7 @@ nav {
 		}
 		.logo {
 			display: inline-block;
-			margin: 0 2em;
+			margin: 2em;
 			img {
 				height: 50px;
 				width: 50px;
@@ -91,7 +91,7 @@ nav {
 	}
 }
 .header-tagline {
-	@include rhythm(0, 2, 2, 0);
+	@include rhythm(0, 1, 2, 0);
 	text-align: center;
 }
 .social-links {
