@@ -42,9 +42,7 @@ nav {
 	list-style-type: none;
 	ul.mobile-navigation {
 		display: none;
-		background: $midnight-blue;
-		border-top: 2px solid lighten($midnight-blue, 20%);
-		border-bottom: 2px solid lighten($midnight-blue, 20%);
+		background: $bitcamp-orange;
 		@include stack();
 		li {
 			padding-top: 1em;
@@ -74,6 +72,9 @@ nav {
 }
 .header-info {
 	margin-top: 4em;
+	.logo {
+		display: none;
+	}
 	@media screen and (min-width: $bp-small-2) {
 		margin: auto;
 		@include rhythm(0, 3 + 1/3, 0, 0);
@@ -91,7 +92,7 @@ nav {
 	}
 }
 .header-tagline {
-	@include rhythm(0, 1, 2, 0);
+	@include rhythm(0, 1, 1 + 2/3, 0);
 	text-align: center;
 }
 .social-links {

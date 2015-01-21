@@ -50,6 +50,11 @@ ul {
         color: $medium-blue;
     }
 }
+ul.mobile-navigation {
+    a {
+        color: $white;
+    }
+}
 p {
    color: $dark-brown;
    max-width: $bp-small;
