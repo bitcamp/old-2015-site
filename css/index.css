@@ -387,6 +387,11 @@ p {
   }
 }
 
+/* line 10, ../scss/atoms/_button.scss */
+.btn:hover, .btn:active {
+  background-color: #528CA5;
+}
+
 /* line 1, ../scss/atoms/_inspiration.scss */
 .inspiration {
   background: #FF3F46;
