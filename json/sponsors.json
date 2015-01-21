@@ -10,7 +10,8 @@
         {
             "name": "TCS",
             "photo": "img/sponsors/tata.svg",
-            "link": "http://www.tcs.com/Pages/default.aspx"
+            "link": "http://www.tcs.com/Pages/default.aspx",
+	    "level": 3
         },
         {
             "name": "Leidos",

@@ -1,0 +1,20 @@
+.sponsors {
+	@include cf();
+	@include center($bp-small-2);
+	img {
+		width: 100%;
+	}
+}
+.sponsors-lvl1, sponsors-lvl2 {
+}
+.sponsors-lvl3 {
+	li {
+		@include col(1/3, $cycle: 3);
+	}
+}
+.sponsors-lvl4 {
+	li {
+		@include col(1/4, $cycle: 4);
+	}
+}
+

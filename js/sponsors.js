@@ -80,7 +80,21 @@ $.getJSON("json/sponsors.json", function(data) {
 		link = data[index]["link"];
 		photo  = data[index]["photo"];
 		name = data[index]["name"];
+		level = data[index]["level"];
+		switch(level) {
+			case 1:		
+				$(".sponsors-lvl1").append(sponsorElement.format(link, photo, name));
+				break;
+			case 2:		
+				$(".sponsors-lvl2").append(sponsorElement.format(link, photo, name));
+				break;	
+			case 3:		
+				$(".sponsors-lvl3").append(sponsorElement.format(link, photo, name));
+				break;	
+			case 4:		
+				$(".sponsors-lvl4").append(sponsorElement.format(link, photo, name));
+				break;	
+		}	
 		
-		$(".sponsors").append(sponsorElement.format(link, photo, name));
 	});
 });
