@@ -1,11 +1,12 @@
 var menuOn = false;
+$('#mobile-navigation').hide();
 
-document.getElementById('menu').onclick = function () {
+$('.menu').click(function () {
 	if (!menuOn) {
-		$(document.getElementById('mobile-navigation')).show();
+		$('#mobile-navigation').slideDown(250);
 		menuOn = true;
 	} else {
-		$(document.getElementById('mobile-navigation')).hide();
+		$('#mobile-navigation').slideUp(250);
 		menuOn = false;
 	}
-}
+});
