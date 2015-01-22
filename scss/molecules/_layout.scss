@@ -117,11 +117,9 @@ nav {
 	@include rhythm(0, 2, 2, 0);
 }
 .photos {
-	width: 100%;
 	overflow: hidden;
-	display: none;
-	@media screen and (min-width: $bp-small-2) {
-		display: block;		
+	img {
+		@include col(1);
 	}
 }
 .imagine {
