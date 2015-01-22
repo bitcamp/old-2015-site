@@ -430,7 +430,7 @@ header {
   *zoom: 1;
   *zoom: 1;
   width: auto;
-  max-width: 29.75em;
+  max-width: 50em;
   float: none;
   display: block;
   margin-right: auto;
@@ -468,7 +468,38 @@ header {
   vertical-align: middle;
 }
 
-/* line 15, ../scss/molecules/_sponsors.scss */
+/* line 13, ../scss/molecules/_sponsors.scss */
+.sponsors-lvl1 img, .sponsors-lvl2 img {
+  width: 50%;
+}
+
+/* line 17, ../scss/molecules/_sponsors.scss */
+.sponsors-lvl2 {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.5em;
+}
+@media (min-width: 29.75em) {
+  /* line 17, ../scss/molecules/_sponsors.scss */
+  .sponsors-lvl2 {
+    margin-top: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-bottom: 3em;
+  }
+}
+@media (min-width: 29.75em) {
+  /* line 17, ../scss/molecules/_sponsors.scss */
+  .sponsors-lvl2 {
+    margin-top: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-bottom: 4.5em;
+  }
+}
+
+/* line 27, ../scss/molecules/_sponsors.scss */
 .sponsors-lvl3 li {
   *zoom: 1;
   float: left;
@@ -497,7 +528,7 @@ header {
   clear: both;
 }
 
-/* line 20, ../scss/molecules/_sponsors.scss */
+/* line 34, ../scss/molecules/_sponsors.scss */
 .sponsors-lvl4 li {
   *zoom: 1;
   float: left;
@@ -815,7 +846,7 @@ nav ul.navigation li {
 /* line 143, ../scss/molecules/_layout.scss */
 .sponsors {
   margin-top: 0em;
-  padding-top: 4.5em;
+  padding-top: 7.5em;
   padding-bottom: 3em;
   margin-bottom: 0em;
 }
