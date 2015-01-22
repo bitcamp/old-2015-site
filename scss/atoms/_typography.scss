@@ -55,6 +55,11 @@ ul.mobile-navigation {
         color: $white;
     }
 }
+ul.navigation {
+    a:hover {
+        color: lighten($midnight-blue, 20%);
+    }
+}
 p {
    color: $dark-brown;
    max-width: $bp-small;
