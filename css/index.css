@@ -429,6 +429,10 @@ header {
   height: 1.5em;
   width: 1.5em;
 }
+/* line 9, ../scss/molecules/_social.scss */
+.social-links li img:hover {
+  opacity: .8;
+}
 
 /* line 1, ../scss/molecules/_sponsors.scss */
 .sponsors {
