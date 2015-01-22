@@ -101,6 +101,7 @@ table {
 /* CSS Transition
 	Usage: @include transition(width,0.3s,ease-out);
  */
+/* CSS Vertical Align */
 /* Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
 	Usage: @include font-size(1, large);
 */
@@ -449,11 +450,18 @@ header {
   clear: both;
 }
 /* line 4, ../scss/molecules/_sponsors.scss */
+.sponsors li {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 7, ../scss/molecules/_sponsors.scss */
 .sponsors img {
   width: 100%;
+  vertical-align: middle;
 }
 
-/* line 11, ../scss/molecules/_sponsors.scss */
+/* line 15, ../scss/molecules/_sponsors.scss */
 .sponsors-lvl3 li {
   *zoom: 1;
   float: left;
@@ -482,7 +490,7 @@ header {
   clear: both;
 }
 
-/* line 16, ../scss/molecules/_sponsors.scss */
+/* line 20, ../scss/molecules/_sponsors.scss */
 .sponsors-lvl4 li {
   *zoom: 1;
   float: left;
@@ -722,7 +730,7 @@ nav ul.navigation li {
 .social-links {
   margin-top: 0em;
   padding-top: 1.5em;
-  padding-bottom: 0em;
+  padding-bottom: 3em;
   margin-bottom: 0em;
 }
 
@@ -742,7 +750,7 @@ nav ul.navigation li {
 /* line 110, ../scss/molecules/_layout.scss */
 .sponsors {
   margin-top: 0em;
-  padding-top: 0em;
+  padding-top: 3em;
   padding-bottom: 3em;
   margin-bottom: 0em;
 }

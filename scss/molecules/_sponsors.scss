@@ -1,8 +1,12 @@
 .sponsors {
 	@include cf();
 	@include center($bp-small-2);
+	li {
+		@include align-vertical();
+	}
 	img {
 		width: 100%;
+		vertical-align: middle;
 	}
 }
 .sponsors-lvl1, sponsors-lvl2 {

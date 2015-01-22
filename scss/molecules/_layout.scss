@@ -98,7 +98,7 @@ nav {
 	text-align: center;
 }
 .social-links {
-	@include rhythm(0, 1, 0, 0);
+	@include rhythm(0, 1, 2, 0);
 }
 .wrapper {
 	@include rhythm(0, 3, 3, 0);
@@ -108,7 +108,7 @@ nav {
 	background: $midnight-blue;
 }
 .sponsors {
-	@include rhythm(0, 0, 2, 0);
+	@include rhythm(0, 2, 2, 0);
 }
 .photos {
 	width: 100%;

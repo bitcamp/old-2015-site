@@ -39,9 +39,9 @@
             "level": 4
         },
 	{
-            "name": "Facebook",
-            "photo": "img/sponsors/facebook.svg",
-            "link": "http://www.facebook.com/",
-            "level": 4
+            "name": "LTS",
+            "photo": "img/sponsors/lts.svg",
+            "link": "http://www.ltsnet.net/",
+            "level": 3
         }
     ]
