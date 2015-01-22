@@ -70,8 +70,8 @@ p {
 .hype {
     color: $white;
     div.hype-number {
-        font-family: $font-subheading;
-        @include adjust-font-size-to($font-size-large);
+        font-family: $font-digital;
+        @include adjust-font-size-to($font-size-large-3);
     }
     div.hype-label {	
         @include adjust-font-size-to($font-size-med);
