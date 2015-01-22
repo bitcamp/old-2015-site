@@ -127,6 +127,7 @@ nav {
 }
 .inspiration-boxes {
 	@include center($max-width, 15em);
+	@include rhythm(0, 1, 0, 0);
 }
 .inspiration {
 	background: $flame-red;
