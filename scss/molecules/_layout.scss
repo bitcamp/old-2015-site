@@ -112,6 +112,9 @@ nav {
 	div.hype-number {
 		padding-left: 1rem;
 	}
+	div.hype-label {
+		@include rhythm(0, 0, .5, 0);
+	}
 }
 .sponsors {
 	@include rhythm(0, 3, 2, 0);
