@@ -400,8 +400,13 @@ p {
   }
 }
 
-/* line 10, ../scss/atoms/_button.scss */
-.btn:hover, .btn:active {
+/* line 9, ../scss/atoms/_button.scss */
+.btn:hover {
+  background-color: #ff835a;
+}
+
+/* line 13, ../scss/atoms/_button.scss */
+.btn:active {
   background-color: #528CA5;
 }
 
