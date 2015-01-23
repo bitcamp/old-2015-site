@@ -482,15 +482,16 @@ header {
 
 /* line 19, ../scss/molecules/_sponsors.scss */
 .sponsors-lvl2 img {
-  height: 6em;
+  height: 5em;
+  margin: 0;
 }
 
-/* line 24, ../scss/molecules/_sponsors.scss */
+/* line 25, ../scss/molecules/_sponsors.scss */
 .sponsors-lvl3 img {
   height: 4em;
 }
 
-/* line 30, ../scss/molecules/_sponsors.scss */
+/* line 31, ../scss/molecules/_sponsors.scss */
 .sponsors-lvl4 img {
   height: 4em;
 }
@@ -784,9 +785,9 @@ nav ul.navigation li {
 /* line 142, ../scss/molecules/_layout.scss */
 .sponsors {
   margin-top: 0em;
-  padding-top: 0em;
-  padding-bottom: 3em;
-  margin-bottom: 3em;
+  padding-top: 1.5em;
+  padding-bottom: 4.5em;
+  margin-bottom: 0em;
 }
 
 /* line 145, ../scss/molecules/_layout.scss */
