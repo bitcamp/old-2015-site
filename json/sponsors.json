@@ -43,5 +43,23 @@
             "photo": "img/sponsors/lts.svg",
             "link": "http://www.ltsnet.net/",
             "level": 3
+        },
+	{
+            "name": "ATT",
+            "photo": "img/sponsors/att.svg",
+            "link": "http://www.att.com/",
+            "level": 4
+        },
+	{
+            "name": "Bloomberg",
+            "photo": "img/sponsors/bloomberg.svg",
+            "link": "http://www.bloomberg.com/",
+            "level": 3
+        },
+	{
+            "name": "Cisco",
+            "photo": "img/sponsors/cisco.svg",
+            "link": "http://www.cisco.com/",
+            "level": 4
         }
     ]

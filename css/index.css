@@ -571,6 +571,11 @@ header {
   clear: both;
 }
 
+/* line 202, ../scss/jeet/_grid.scss */
+* {
+  background: rgba(0, 0, 0, 0.05);
+}
+
 /* line 3, ../scss/molecules/_layout.scss */
 .wrapper-main {
   text-align: center;
