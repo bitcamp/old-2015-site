@@ -1,5 +1,5 @@
 @import "compass/layout/grid-background";
-@include edit();
+//@include edit();
 .wrapper-main {
 	text-align: center;
 	//> div, header, footer {@include baseline-grid-background();}
@@ -140,7 +140,10 @@ nav {
 	}
 }
 .sponsors {
-	@include rhythm(0, 5, 2, 0);
+	@include rhythm(0, 2, 2, 0);
+	@media (min-width: $bp-small-2) {
+		@include rhythm(0, 4, 2, 0);
+	}
 }
 .photos {
 	overflow: hidden;
