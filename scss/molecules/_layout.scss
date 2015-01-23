@@ -140,10 +140,7 @@ nav {
 	}
 }
 .sponsors {
-	@include rhythm(0, 2, 2, 0);
-	@media (min-width: $bp-small-2) {
-		@include rhythm(0, 4, 2, 0);
-	}
+	@include rhythm(0, 0, 2, 2);
 }
 .photos {
 	overflow: hidden;

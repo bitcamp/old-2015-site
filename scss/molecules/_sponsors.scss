@@ -1,42 +1,34 @@
 .sponsors {
-	@include cf();
 	@include center($bp-large);
-	ul {
-		@include cf();
-	}
 	li {
-		@include align-vertical();
+		display: inline-block;
 	}
 	img {
-		width: 100%;
 		vertical-align: middle;
+		@include rhythm(1, 0, 0, 0);
+		margin-left: .5em;
+		margin-right: .5em;
 	}
 }
-.sponsors-lvl3, .sponsors-lvl4 {
-	@include rhythm(0, 2, 0, 0);
-	@media (min-width: $bp-small-2) {
-		@include rhythm(0, 4, 0, 0);
-	}
-}
-.sponsors-lvl1, .sponsors-lvl2 {
+.sponsors-lvl1 {
 	img {
-		width: 50%;
+		height: 6em;
 	}
 }
 .sponsors-lvl2 {
+	img {
+		height: 6em;
+	}
 }
 .sponsors-lvl3 {
-	li {
-		@include col(1/4, $cycle: 4);
-		@media (min-width: $bp-small-2) {		
-		}
+	img {
+		height: 4em;
 	}
+	
 }
 .sponsors-lvl4 {
-	li {
-		@include col(1/5, $cycle: 5);
-		@media (min-width: $bp-small-2) {
-		}
+	img {
+		height: 4em;
 	}
+	
 }
-
