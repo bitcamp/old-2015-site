@@ -6,6 +6,7 @@
 	//> div, header, footer {@include grid-background();}
 }
 header {
+	@include center(940px);
 	ul.social-links {
 		@include rhythm(0, 2, 2, 0);
 	}
