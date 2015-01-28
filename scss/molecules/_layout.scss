@@ -128,6 +128,9 @@ nav {
 }
 .wrapper {
 	@include rhythm(0, 3, 3, 0);
+	p {
+		@include col(5/6, $offset: 1/12);
+	}
 }
 .description {}
 .hype {
