@@ -5,8 +5,10 @@
 	//> div, header, footer {@include baseline-grid-background();}
 	//> div, header, footer {@include grid-background();}
 }
-header {
+.inner {
 	@include center(940px);
+}
+header {
 	ul.social-links {
 		@include rhythm(0, 2, 2, 0);
 	}
@@ -126,6 +128,9 @@ nav {
 }
 .wrapper {
 	@include rhythm(0, 3, 3, 0);
+	p {
+		@include col(5/6, $offset: 1/12);
+	}
 }
 .description {}
 .hype {
