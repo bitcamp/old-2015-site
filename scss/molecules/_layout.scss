@@ -5,6 +5,9 @@
 	//> div, header, footer {@include baseline-grid-background();}
 	//> div, header, footer {@include grid-background();}
 }
+.inner {
+	@include center(940px);
+}
 header {
 	@include center(940px);
 	ul.social-links {
