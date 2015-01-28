@@ -113,13 +113,13 @@ nav {
 	display: flex;
 	order: 1;
 	justify-content: center;
-	@include rhythm(0, 1, 1, 0);
-	@media screen and (min-width: $bp-small-2) {
-		@include rhythm(0, 2/3, 1, 0);
-	}
-	@media screen and (min-width: $bp-med) {
-		@include rhythm(0, 1, 1 + 2/3, 0);
-	}
+	// @include rhythm(0, 1, 1, 0);
+	// @media screen and (min-width: $bp-small-2) {
+	// 	@include rhythm(0, 2/3, 1, 0);
+	// }
+	// @media screen and (min-width: $bp-med) {
+	// 	@include rhythm(0, 1, 1 + 2/3, 0);
+	// }
 }
 .social-links {
 	@include rhythm(0, 1, 2, 0);
