@@ -254,12 +254,11 @@ html {
 /* line 3, ../scss/atoms/_typography.scss */
 body {
   font-family: "Aleo", "sexay font", Times, serif;
-  line-height: 1.45;
   color: #528CA5;
 }
 
 /* line 8, ../scss/atoms/_typography.scss */
-h2, h3, h4 {
+h1, h3, h4 {
   font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
   text-transform: uppercase;
   color: #1a2e33;
@@ -267,65 +266,75 @@ h2, h3, h4 {
 }
 
 /* line 14, ../scss/atoms/_typography.scss */
-h1 {
+h2 {
   font-family: "Aleo", "sexay font", Times, serif;
   font-weight: bold;
-  font-size: 2em;
-  line-height: 1.33333em;
   color: #fff;
 }
-@media screen and (min-width: 29.75em) {
-  /* line 14, ../scss/atoms/_typography.scss */
-  h1 {
-    font-size: 1.25em;
-    line-height: 2.13333em;
-  }
+
+/* line 24, ../scss/atoms/_typography.scss */
+html {
+  font-size: 1.125em;
 }
 
-/* line 23, ../scss/atoms/_typography.scss */
+/* line 26, ../scss/atoms/_typography.scss */
+body {
+  line-height: 1.45;
+}
+
+/* line 30, ../scss/atoms/_typography.scss */
+p {
+  margin-bottom: 1.3em;
+}
+
+/* line 32, ../scss/atoms/_typography.scss */
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  line-height: 1.2;
+}
+
+/* line 37, ../scss/atoms/_typography.scss */
+h1 {
+  margin-top: 0;
+  font-size: 120px;
+}
+
+/* line 43, ../scss/atoms/_typography.scss */
 h2 {
-  font-size: 2em;
-  line-height: 1.33333em;
-  font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
-  font-weight: bold;
-  line-height: 1.15em;
-}
-@media screen and (min-width: 46.8em) {
-  /* line 23, ../scss/atoms/_typography.scss */
-  h2 {
-    font-size: 6em;
-    line-height: 1.11111em;
-  }
-}
-@media screen and (min-width: 29.75em) and (max-width: 46.8em) {
-  /* line 23, ../scss/atoms/_typography.scss */
-  h2 {
-    font-size: 3em;
-    line-height: 1.33333em;
-  }
+  font-size: 1.424em;
+  text-transform: lowercase;
 }
 
-/* line 35, ../scss/atoms/_typography.scss */
-h3, h4 {
-  font-size: 1.25em;
-  line-height: 2.13333em;
+/* line 46, ../scss/atoms/_typography.scss */
+h3 {
+  font-size: 1.266em;
 }
 
-/* line 38, ../scss/atoms/_typography.scss */
+/* line 48, ../scss/atoms/_typography.scss */
+h4 {
+  font-size: 1.125em;
+}
+
+/* line 50, ../scss/atoms/_typography.scss */
+small, .font_small {
+  font-size: 0.889em;
+}
+
+/* line 51, ../scss/atoms/_typography.scss */
 a {
   color: #528CA5;
   text-decoration: none;
   font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
   font-weight: bold;
 }
-/* line 43, ../scss/atoms/_typography.scss */
+/* line 56, ../scss/atoms/_typography.scss */
 a.btn {
   color: white;
   padding-top: 24px;
   padding-bottom: 24px;
   font-size: 24px;
 }
-/* line 48, ../scss/atoms/_typography.scss */
+/* line 61, ../scss/atoms/_typography.scss */
 a.btn.large {
   padding-top: 36px;
   padding-bottom: 36px;
