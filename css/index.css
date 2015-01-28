@@ -312,79 +312,24 @@ h3, h4 {
 }
 
 /* line 38, ../scss/atoms/_typography.scss */
-.date, .location {
-  font-size: 1.25em;
-  line-height: 2.13333em;
-}
-
-/* line 41, ../scss/atoms/_typography.scss */
 a {
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-/* line 47, ../scss/atoms/_typography.scss */
-ul a {
-  font-family: "Lato", "Casper", "Helvetica", sans-serif;
-  font-weight: bold;
   color: #528CA5;
-}
-
-/* line 54, ../scss/atoms/_typography.scss */
-ul.mobile-navigation a {
-  color: #fff;
-}
-
-/* line 59, ../scss/atoms/_typography.scss */
-ul.navigation a:hover {
-  color: #3c6b77;
-}
-
-/* line 63, ../scss/atoms/_typography.scss */
-p {
-  color: #7F6C5F;
-  max-width: 24em;
-  margin: auto;
-  text-align: center;
-  font-size: 1.25em;
-  line-height: 2.13333em;
-}
-
-/* line 70, ../scss/atoms/_typography.scss */
-.btn {
-  font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
-  font-size: 1.25em;
-  line-height: 2.13333em;
-  font-weight: bold;
-}
-
-/* line 75, ../scss/atoms/_typography.scss */
-.hype {
-  color: #fff;
-}
-/* line 77, ../scss/atoms/_typography.scss */
-.hype div.hype-number {
-  font-family: "Imagine", sans-serif;
-  font-size: 9em;
-  line-height: 1.03704em;
-}
-/* line 81, ../scss/atoms/_typography.scss */
-.hype div.hype-label {
-  font-size: 2em;
-  line-height: 1.33333em;
-}
-
-/* line 85, ../scss/atoms/_typography.scss */
-#date, #location {
-  color: #fff;
-}
-
-/* line 88, ../scss/atoms/_typography.scss */
-.inspiration {
+  text-decoration: none;
   font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
   font-weight: bold;
-  color: #fff;
+}
+/* line 43, ../scss/atoms/_typography.scss */
+a.btn {
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 24px;
+}
+/* line 48, ../scss/atoms/_typography.scss */
+a.btn.large {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-size: 36px;
 }
 
 /* line 1, ../scss/atoms/_button.scss */

@@ -35,58 +35,20 @@ h2 {
 h3, h4 {
     @include adjust-font-size-to($font-size-small-2);
 }
-.date, .location {
-    @include adjust-font-size-to($font-size-small-2);
-} 
-a {
-    color: $white;
-    font-weight: bold;
+a{
+    color: $medium-blue;
     text-decoration: none;
-}
-ul {
-    a {
-	font-family: $font-secondary;
-	font-weight: bold;
-        color: $medium-blue;
-    }
-}
-ul.mobile-navigation {
-    a {
-        color: $white;
-    }
-}
-ul.navigation {
-    a:hover {
-        color: lighten($midnight-blue, 20%);
-    }
-}
-p {
-   color: $dark-brown;
-   max-width: $bp-small;
-   margin: auto;
-   text-align: center;
-   @include adjust-font-size-to($font-size-small-2);
-}
-.btn {
-    font-family: $font-subheading;
-    @include adjust-font-size-to($font-size-small-2);
-    font-weight: bold;
-}
-.hype {
-    color: $white;
-    div.hype-number {
-        font-family: $font-digital;
-        @include adjust-font-size-to($font-size-large-3);
-    }
-    div.hype-label {	
-        @include adjust-font-size-to($font-size-med);
-    }
-}
-#date, #location {
-    color: $white;
-}
-.inspiration {
     font-family: $font-subheading;
     font-weight: bold;
-    color: $white;
+    &.btn{
+        color:white;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-size: 24px;
+        &.large{
+        padding-top: 36px;
+        padding-bottom: 36px;
+        font-size: 36px;
+        }
+    }
 }
