@@ -348,6 +348,11 @@ a.btn.large {
   font-size: 24px;
 }
 
+/* line 73, ../scss/atoms/_typography.scss */
+.hype {
+  color: #fff;
+}
+
 /* line 1, ../scss/atoms/_button.scss */
 .btn {
   background-color: #FF7040;
@@ -959,14 +964,7 @@ nav ul.navigation li {
 }
 /* line 162, ../scss/molecules/_layout.scss */
 .hype div.hype-number {
-  padding-left: 1rem;
-}
-/* line 165, ../scss/molecules/_layout.scss */
-.hype div.hype-label {
-  margin-top: 0em;
-  padding-top: 0em;
-  padding-bottom: 0.66667em;
-  margin-bottom: 0em;
+  font-family: "Imagine", sans-serif;
 }
 
 /* line 169, ../scss/molecules/_layout.scss */

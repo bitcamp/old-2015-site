@@ -160,10 +160,10 @@ nav {
 		margin: 0 auto;
 	}	
 	div.hype-number {
-		padding-left: 1rem;
+		font-family: $font-digital;
 	}
 	div.hype-label {
-		@include rhythm(0, 0, .5, 0);
+		//@include rhythm(0, 0, .5, 0);
 	}
 }
 .sponsors {
