@@ -69,74 +69,97 @@ nav {
         }
     }
 }
+/*
 .switch {
     display: flex;
     flex-direction: column;
 }
+*/
+.switch {
+	@include span(1);
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
 .header-info {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    order: 2;
-    @include rhythm(0, 0, 2, 0);
-    .logo {
-        display: none;
-    }
-    @media screen and (min-width: $bp-small-2) {
-        order: 0;
-        margin: auto;
-        @include rhythm(0, 2 + 1/3, 0, 0);
-        flex-direction: row;
-    }
-    .date, .location {
-        @media screen and (min-width: $bp-small-2) {
-            display: inline-block;
-            @include rhythm(1 + 2/3, 0, 0, 0);
-        }
-    }
-    .logo {
-        @media screen and (min-width: $bp-small-2) {
-            display: inline-block;
-            margin: 2em;
-            img {
-                height: 50px;
-                width: 50px;
-            }
-        }
-    }
+	@include cf();
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*flex-direction: column;*/
+	/*order: 2;*/
+	@include rhythm(0, 0, 2, 0);
+	@media screen and (min-width: $bp-small-2) {
+		order: 0;
+		margin: auto;
+		@include rhythm(0, 2 + 1/3, 0, 0);
+		/*flex-direction: row;*/
+	}
+	.date, .location {
+		@include span(1);
+		@media screen and (min-width: $bp-small-2) {
+			@include rhythm(6/7, 0, 0, 0);
+		}
+	}
+	.date {	
+		@media screen and (min-width: $bp-small-2) {
+			@include col(1/4, $offset: 1/6);
+		}
+	}
+	.location {	
+		@media screen and (min-width: $bp-small-2) {
+			@include col(1/4);
+		}
+	}
+	.logo {
+		@include span(1);
+		@media screen and (min-width: $bp-small-2) {
+			display: inline-block;
+			@include col(1/6);
+			img {
+				height: 75px;
+				width: 75px;
+			}
+		}
+	}
+	
 }
 .header-tagline {
-    display: flex;
-    order: 1;
-    justify-content: center;
-    // @include rhythm(0, 1, 1, 0);
-    // @media screen and (min-width: $bp-small-2) {
-    // 	@include rhythm(0, 2/3, 1, 0);
-    // }
-    // @media screen and (min-width: $bp-med) {
-    // 	@include rhythm(0, 1, 1 + 2/3, 0);
-    // }
+	@include rhythm(0, 3, 0, 0);
+	//display: flex;
+	//order: 1;
+	//justify-content: center;
+	// @include rhythm(0, 1, 1, 0);
+	// @media screen and (min-width: $bp-small-2) {
+	// 	@include rhythm(0, 2/3, 1, 0);
+	// }
+	// @media screen and (min-width: $bp-med) {
+	// 	@include rhythm(0, 1, 1 + 2/3, 0);
+	// }
 }
 .social-links {
     @include rhythm(0, 1, 2, 0);
 }
 .wrapper {
-    @include rhythm(0, 3, 3, 0);
-    p {
-        @include col(5/6, $offset: 1/12);
-    }
+	@include rhythm(0, 3, 3, 0);
+	p {
+		@include col(5/6, $offset: 1/12);
+	}
 }
-.description {} .hype {
-    background: $midnight-blue;
-    div {
-        margin: 0 auto;
-    }
-    div.hype-number {
-        padding-left: 1rem;
-    }
-    div.hype-label {
-        @include rhythm(0, 0, .5, 0);
-    }
+.description {}
+.hype {
+	background: $midnight-blue;
+	div {
+		margin: 0 auto;
+	}	
+	div.hype-number {
+		font-family: $font-digital;
+	}
+	div.hype-label {
+		//@include rhythm(0, 0, .5, 0);
+	}
 }
 .sponsors {
     @include rhythm(0, 1, 3, 0);
