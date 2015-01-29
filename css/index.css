@@ -607,12 +607,31 @@ header ul.social-links {
   }
 }
 
-/* line 29, ../scss/molecules/_header.scss */
+/* line 28, ../scss/molecules/_header.scss */
+.vertical {
+  display: block;
+}
+@media (min-width: 580px) {
+  /* line 28, ../scss/molecules/_header.scss */
+  .vertical {
+    display: none;
+  }
+}
+
+/* line 34, ../scss/molecules/_header.scss */
+.horizontal {
+  display: none;
+}
+@media (min-width: 580px) {
+  /* line 34, ../scss/molecules/_header.scss */
+  .horizontal {
+    display: block;
+  }
+}
+
+/* line 40, ../scss/molecules/_header.scss */
 .header-info {
   *zoom: 1;
-  display: flex;
-  /*justify-content: center;*/
-  flex-direction: column;
 }
 /* line 344, ../scss/jeet/_grid.scss */
 .header-info:before, .header-info:after {
@@ -624,18 +643,16 @@ header ul.social-links {
   clear: both;
 }
 @media screen and (min-width: 580px) {
-  /* line 29, ../scss/molecules/_header.scss */
+  /* line 40, ../scss/molecules/_header.scss */
   .header-info {
     margin: auto;
     margin-top: 0em;
     padding-top: 3.11111em;
     padding-bottom: 0em;
     margin-bottom: 0em;
-    /*flex-direction: row;*/
-    display: block;
   }
 }
-/* line 41, ../scss/molecules/_header.scss */
+/* line 46, ../scss/molecules/_header.scss */
 .header-info .date, .header-info .location {
   *zoom: 1;
   width: auto;
@@ -657,7 +674,7 @@ header ul.social-links {
   clear: both;
 }
 @media screen and (min-width: 580px) {
-  /* line 41, ../scss/molecules/_header.scss */
+  /* line 46, ../scss/molecules/_header.scss */
   .header-info .date, .header-info .location {
     margin-top: 1.14286em;
     padding-top: 0em;
@@ -665,12 +682,8 @@ header ul.social-links {
     margin-bottom: 0em;
   }
 }
-/* line 47, ../scss/molecules/_header.scss */
-.header-info .date {
-  order: 3;
-}
 @media (min-width: 580px) {
-  /* line 47, ../scss/molecules/_header.scss */
+  /* line 52, ../scss/molecules/_header.scss */
   .header-info .date {
     *zoom: 1;
     float: left;
@@ -695,7 +708,7 @@ header ul.social-links {
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 47, ../scss/molecules/_header.scss */
+  /* line 52, ../scss/molecules/_header.scss */
   .header-info .date {
     *zoom: 1;
     float: left;
@@ -719,12 +732,8 @@ header ul.social-links {
     margin-right: 0%;
   }
 }
-/* line 56, ../scss/molecules/_header.scss */
-.header-info .location {
-  order: 4;
-}
 @media (min-width: 580px) {
-  /* line 56, ../scss/molecules/_header.scss */
+  /* line 60, ../scss/molecules/_header.scss */
   .header-info .location {
     *zoom: 1;
     float: left;
@@ -749,7 +758,7 @@ header ul.social-links {
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 56, ../scss/molecules/_header.scss */
+  /* line 60, ../scss/molecules/_header.scss */
   .header-info .location {
     *zoom: 1;
     float: left;
@@ -773,21 +782,20 @@ header ul.social-links {
     margin-right: 0%;
   }
 }
-/* line 65, ../scss/molecules/_header.scss */
+/* line 68, ../scss/molecules/_header.scss */
 .header-info .logo {
-  order: 2;
   margin-top: 0em;
   padding-top: 1.33333em;
   padding-bottom: 0em;
   margin-bottom: 0em;
 }
-/* line 69, ../scss/molecules/_header.scss */
+/* line 70, ../scss/molecules/_header.scss */
 .header-info .logo img {
   height: 75px;
   width: 75px;
 }
 @media (min-width: 580px) {
-  /* line 65, ../scss/molecules/_header.scss */
+  /* line 68, ../scss/molecules/_header.scss */
   .header-info .logo {
     margin-top: 0em;
     padding-top: 0em;
@@ -817,7 +825,7 @@ header ul.social-links {
 }
 
 @media (min-width: 580px) {
-  /* line 80, ../scss/molecules/_header.scss */
+  /* line 81, ../scss/molecules/_header.scss */
   .header-tagline {
     margin-top: 0em;
     padding-top: 4em;
