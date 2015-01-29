@@ -244,7 +244,7 @@ table {
 /**
  * Apply a clearfix to an element.
  */
-/* line 106, ../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 112.5%;
   line-height: 1.33333em;
@@ -349,53 +349,61 @@ a {
 }
 /* line 74, ../scss/atoms/_typography.scss */
 a.btn, a.inspiration {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 16px;
   color: white;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  font-size: 24px;
 }
-/* line 79, ../scss/atoms/_typography.scss */
+@media (min-width: 580px) {
+  /* line 74, ../scss/atoms/_typography.scss */
+  a.btn, a.inspiration {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 24px;
+  }
+}
+/* line 84, ../scss/atoms/_typography.scss */
 a.btn.large, a.large.inspiration {
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 36px;
 }
 
-/* line 86, ../scss/atoms/_typography.scss */
+/* line 91, ../scss/atoms/_typography.scss */
 .header-info {
   font-size: 24px;
 }
 
-/* line 89, ../scss/atoms/_typography.scss */
+/* line 94, ../scss/atoms/_typography.scss */
 .hype {
   color: #fff;
 }
 
-/* line 92, ../scss/atoms/_typography.scss */
+/* line 97, ../scss/atoms/_typography.scss */
 .hype-number {
   font-family: "Imagine", sans-serif;
   font-size: 200px;
 }
 @media (min-width: 580px) {
-  /* line 92, ../scss/atoms/_typography.scss */
+  /* line 97, ../scss/atoms/_typography.scss */
   .hype-number {
     font-size: 300px;
   }
 }
 
-/* line 99, ../scss/atoms/_typography.scss */
+/* line 104, ../scss/atoms/_typography.scss */
 .hype-label {
   font-size: 48px;
 }
 
-/* line 102, ../scss/atoms/_typography.scss */
+/* line 107, ../scss/atoms/_typography.scss */
 .inspiration {
   color: #fff;
   font-family: "Lato", "Casper", "Helvetica", sans-serif;
   font-weight: bold;
 }
 
-/* line 108, ../scss/atoms/_typography.scss */
+/* line 113, ../scss/atoms/_typography.scss */
 ul.mobile-navigation li {
   color: #fff;
 }
