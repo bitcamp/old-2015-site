@@ -72,10 +72,15 @@ a{
     font-family: $font-subheading;
     font-weight: bold;
     &.btn{
-        color:white;
+        @include breakpoint($bp-small-2){     
         padding-top: 28px;
         padding-bottom: 28px;
         font-size: 24px;
+        }
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-size: 18px;
+        color:white;
         &.large{
         padding-top: 32px;
         padding-bottom: 32px;
