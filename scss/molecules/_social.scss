@@ -1,7 +1,13 @@
 .social-links {
-    @include col(1/4, $offset: 9/24, $gutter: 4.25531914894);
+    @include col(1/2, $offset: 1/4, $gutter: 4.25531914894);
+	@media (min-width: $bp-small-2) {
+		@include col(1/4, $offset: 9/24, $gutter: 4.25531914894);
+	}
     li {
-        @include col(1/3 1/4);
+		@include col(1/3 1/2);
+		@media (min-width: $bp-small-2) {
+			@include col(1/3 1/4);
+		}
 		//@include col(1/5 1/4);
         display: inline-block;
         a {
