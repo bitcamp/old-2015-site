@@ -315,9 +315,9 @@ h1, h2, h3, h4 {
 /* line 49, ../scss/atoms/_typography.scss */
 h1 {
   margin-top: 0;
-  font-size: 10px;
+  font-size: 50px;
 }
-@media (min-width: 250px) {
+@media (min-width: 550px) {
   /* line 49, ../scss/atoms/_typography.scss */
   h1 {
     font-size: 80px;
@@ -912,7 +912,7 @@ nav ul.navigation a li {
 .header-info:after {
   clear: both;
 }
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 550px) {
   /* line 93, ../scss/molecules/_layout.scss */
   .header-info {
     order: 0;
@@ -943,7 +943,7 @@ nav ul.navigation a li {
 .header-info .date:after, .header-info .location:after {
   clear: both;
 }
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 550px) {
   /* line 106, ../scss/molecules/_layout.scss */
   .header-info .date, .header-info .location {
     margin-top: 1.14286em;
@@ -952,7 +952,7 @@ nav ul.navigation a li {
     margin-bottom: 0em;
   }
 }
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 550px) {
   /* line 112, ../scss/molecules/_layout.scss */
   .header-info .date {
     *zoom: 1;
@@ -977,7 +977,7 @@ nav ul.navigation a li {
     margin-right: 0%;
   }
 }
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 550px) {
   /* line 117, ../scss/molecules/_layout.scss */
   .header-info .location {
     *zoom: 1;
@@ -1021,7 +1021,7 @@ nav ul.navigation a li {
 .header-info .logo:after {
   clear: both;
 }
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 550px) {
   /* line 122, ../scss/molecules/_layout.scss */
   .header-info .logo {
     display: inline-block;
