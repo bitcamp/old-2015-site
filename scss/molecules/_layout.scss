@@ -73,4 +73,5 @@
 }
 footer {
     text-align: center;
+	@include rhythm(0, 1, 0, 0);
 }

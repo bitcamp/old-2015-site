@@ -100,18 +100,6 @@ table {
 /*------------------------------------*\
     $VARIABLES
 \*------------------------------------*/
-/*
-$bp-small : 24em;
-$bp-small-2 : 29.75em;
-$bp-small-3 : 39.8em;
-$bp-med : 46.8em;
-$bp-med-2 : 48em;
-$bp-large : 50em;
-$bp-large-2 : 66em;
-$bp-xl : 73em;
-$bp-xxl : 89em;
-$bp-xxxl : 93em;
-*/
 /*------------------------------------*\
     $MIXINS
 \*------------------------------------*/
@@ -1344,4 +1332,8 @@ nav ul.navigation a li {
 /* line 74, ../scss/molecules/_layout.scss */
 footer {
   text-align: center;
+  margin-top: 0em;
+  padding-top: 1.33333em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
 }
