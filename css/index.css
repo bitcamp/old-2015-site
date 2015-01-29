@@ -328,14 +328,14 @@ a {
   font-weight: bold;
 }
 /* line 62, ../scss/atoms/_typography.scss */
-a.btn {
+a.btn, a.inspiration {
   color: white;
   padding-top: 28px;
   padding-bottom: 28px;
   font-size: 24px;
 }
 /* line 67, ../scss/atoms/_typography.scss */
-a.btn.large {
+a.btn.large, a.large.inspiration {
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 36px;
@@ -370,7 +370,7 @@ a.btn.large {
 }
 
 /* line 1, ../scss/atoms/_button.scss */
-.btn {
+.btn, .inspiration {
   background-color: #FF7040;
   border-radius: 4px;
   *zoom: 1;
@@ -382,20 +382,20 @@ a.btn.large {
   margin-right: 2.12766%;
 }
 /* line 344, ../scss/jeet/_grid.scss */
-.btn:before, .btn:after {
+.btn:before, .inspiration:before, .btn:after, .inspiration:after {
   content: '';
   display: table;
 }
 /* line 349, ../scss/jeet/_grid.scss */
-.btn:after {
+.btn:after, .inspiration:after {
   clear: both;
 }
 /* line 58, ../scss/jeet/_grid.scss */
-.btn:last-child {
+.btn:last-child, .inspiration:last-child {
   margin-right: 0%;
 }
 /* line 5, ../scss/atoms/_button.scss */
-.btn.large {
+.btn.large, .large.inspiration {
   *zoom: 1;
   float: left;
   clear: none;
@@ -405,26 +405,26 @@ a.btn.large {
   margin-right: 2.12766%;
 }
 /* line 344, ../scss/jeet/_grid.scss */
-.btn.large:before, .btn.large:after {
+.btn.large:before, .large.inspiration:before, .btn.large:after, .large.inspiration:after {
   content: '';
   display: table;
 }
 /* line 349, ../scss/jeet/_grid.scss */
-.btn.large:after {
+.btn.large:after, .large.inspiration:after {
   clear: both;
 }
 /* line 58, ../scss/jeet/_grid.scss */
-.btn.large:last-child {
+.btn.large:last-child, .large.inspiration:last-child {
   margin-right: 0%;
 }
 
 /* line 10, ../scss/atoms/_button.scss */
-.btn:hover {
+.btn:hover, .inspiration:hover {
   background-color: #ff835a;
 }
 
 /* line 14, ../scss/atoms/_button.scss */
-.btn:active {
+.btn:active, .inspiration:active {
   background-color: #528CA5;
 }
 
@@ -1124,7 +1124,6 @@ nav ul.navigation a li {
 /* line 180, ../scss/molecules/_layout.scss */
 .inspiration {
   background: #FF3F46;
-  border-radius: 4px;
   *zoom: 1;
   float: left;
   clear: none;
@@ -1190,8 +1189,12 @@ nav ul.navigation a li {
     clear: both;
   }
 }
+/* line 187, ../scss/molecules/_layout.scss */
+.inspiration:hover, .inspiration:active {
+  background: #FF3F46;
+}
 
-/* line 188, ../scss/molecules/_layout.scss */
+/* line 191, ../scss/molecules/_layout.scss */
 footer {
   text-align: center;
 }
