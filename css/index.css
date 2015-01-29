@@ -489,19 +489,43 @@ header {
 .social-links li:last-child {
   margin-right: 0%;
 }
-/* line 6, ../scss/molecules/_social.scss */
+/* line 7, ../scss/molecules/_social.scss */
 .social-links li a {
   width: 100%;
   max-width: 40px;
 }
-/* line 9, ../scss/molecules/_social.scss */
+/* line 10, ../scss/molecules/_social.scss */
 .social-links li a img {
   max-width: 40px;
   width: 100%;
 }
-/* line 13, ../scss/molecules/_social.scss */
+/* line 14, ../scss/molecules/_social.scss */
 .social-links li a img:hover {
   opacity: .8;
+}
+
+/* line 21, ../scss/molecules/_social.scss */
+footer .social-links li {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 16.59574%;
+  margin-left: 0%;
+  margin-right: 4.25532%;
+}
+/* line 344, ../scss/jeet/_grid.scss */
+footer .social-links li:before, footer .social-links li:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../scss/jeet/_grid.scss */
+footer .social-links li:after {
+  clear: both;
+}
+/* line 58, ../scss/jeet/_grid.scss */
+footer .social-links li:last-child {
+  margin-right: 0%;
 }
 
 /* line 1, ../scss/molecules/_sponsors.scss */
