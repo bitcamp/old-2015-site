@@ -13,6 +13,14 @@
 	transition: $transition-property $transition-time $method;
 }
 
+/* Transition Duration */
+@mixin transition-duration($transition-time) {
+	-webkit-transition-duration: $transition-time;
+	-moz-transition-duration: $transition-time;
+	-ms-transition-duration: $transition-time;
+	-o-transition-duration: $transition-time;
+	transition: $transition-time;
+}
 /* CSS Vertical Align */
 @mixin align-vertical() {
 	position: relative;

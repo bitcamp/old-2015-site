@@ -5,6 +5,7 @@
 		//@include col(1/5 1/4);
         display: inline-block;
         a {
+			@include transition-duration($duration);
             width: 100%;
             max-width: 40px;
             img {

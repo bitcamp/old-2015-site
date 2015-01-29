@@ -1,4 +1,5 @@
 .btn{
+	@include transition-duration($duration);
 	background-color: $bitcamp-orange;
 	border-radius: 4px;
 	@include col(2/3, $offset: 1/6);

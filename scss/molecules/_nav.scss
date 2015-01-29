@@ -22,6 +22,7 @@ nav {
         li {
             padding-top: 1em;
             padding-bottom: 1em;
+			@include transition-duration($duration);
         }
         li:hover, li:active {
             background: lighten($midnight-blue, 20%);
@@ -43,7 +44,12 @@ nav {
 			}
             li {
             	font-weight: normal;
+				@include transition-duration($duration);
             }
+			li:hover, li:active {
+				color: lighten($midnight-blue, 20%);
+			}
+			
         }
     }
 }
