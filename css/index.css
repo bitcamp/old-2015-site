@@ -388,6 +388,11 @@ a.btn.large, a.large.inspiration {
   font-weight: bold;
 }
 
+/* line 99, ../scss/atoms/_typography.scss */
+ul.mobile-navigation li {
+  color: #fff;
+}
+
 /* line 1, ../scss/atoms/_button.scss */
 .btn, .inspiration {
   background-color: #FF7040;
@@ -707,13 +712,6 @@ header ul.social-links {
 /* line 29, ../scss/molecules/_layout.scss */
 nav {
   font-size: 18px;
-  *zoom: 1;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 48.93617%;
-  margin-left: 34.04255%;
-  margin-right: 2.12766%;
   line-height: 1.2;
   list-style-type: none;
 }
@@ -721,20 +719,27 @@ nav {
   /* line 29, ../scss/molecules/_layout.scss */
   nav {
     margin-top: 41px;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 48.93617%;
+    margin-left: 34.04255%;
+    margin-right: 2.12766%;
   }
-}
-/* line 344, ../scss/jeet/_grid.scss */
-nav:before, nav:after {
-  content: '';
-  display: table;
-}
-/* line 349, ../scss/jeet/_grid.scss */
-nav:after {
-  clear: both;
-}
-/* line 58, ../scss/jeet/_grid.scss */
-nav:last-child {
-  margin-right: 0%;
+  /* line 344, ../scss/jeet/_grid.scss */
+  nav:before, nav:after {
+    content: '';
+    display: table;
+  }
+  /* line 349, ../scss/jeet/_grid.scss */
+  nav:after {
+    clear: both;
+  }
+  /* line 58, ../scss/jeet/_grid.scss */
+  nav:last-child {
+    margin-right: 0%;
+  }
 }
 /* line 36, ../scss/molecules/_layout.scss */
 nav .menu img {
