@@ -37,10 +37,14 @@ header {
 	@include span(1);
 }
 .right {
-	float: right;
+	@media screen and (min-width: $bp-small-2) {
+		float: right;
+	}
 }
 .left {
-	float: left;
+	@media screen and (min-width: $bp-small-2) {
+		float: left;
+	}
 }
 .header-info {
 	@include cf();
@@ -48,7 +52,7 @@ header {
 	/*justify-content: center;*/
 	/*flex-direction: column;*/
 	/*order: 2;*/
-	@include rhythm(0, 0, 2, 0);
+	@include rhythm(0, 1, 0, 0);
 	@media screen and (min-width: $bp-small-2) {
 		order: 0;
 		margin: auto;
@@ -56,7 +60,7 @@ header {
 		/*flex-direction: row;*/
 	}
 	.date, .location {
-		@include center(1);
+		@include center();
 		@media screen and (min-width: $bp-small-2) {
 			@include rhythm(6/7, 0, 0, 0);
 		}
@@ -90,17 +94,13 @@ header {
 	
 }
 .header-tagline {
-	@include rhythm(0, 3, 0, 0);
+	@media (min-width: $bp-small-2) {
+		@include rhythm(0, 3, 0, 0);
+	}
 	//display: flex;
 	//order: 1;
 	//justify-content: center;
 	// @include rhythm(0, 1, 1, 0);
-	// @media screen and (min-width: $bp-small-2) {
-	// 	@include rhythm(0, 2/3, 1, 0);
-	// }
-	// @media screen and (min-width: $bp-med) {
-	// 	@include rhythm(0, 1, 1 + 2/3, 0);
-	// }
 }
 .social-links {
     @include rhythm(0, 1, 2, 0);
