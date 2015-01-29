@@ -3,4 +3,4 @@
 .sass-cache/*
 .sass-cache/
 *.swp
-.gitignore
+*.scss~
