@@ -170,6 +170,9 @@ nav {
 }
 .imagine {
     @include cf();
+	div.inner {
+		padding: 1em;
+	}
 }
 .inspiration-boxes {
     @include rhythm(0, 1, 0, 0);

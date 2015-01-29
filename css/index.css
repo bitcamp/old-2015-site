@@ -267,7 +267,7 @@ h1, h3, h4 {
 h2 {
   font-family: "Aleo", "sexay font", Times, serif;
   font-weight: bold;
-  color: #fff;
+  color: #528CA5;
 }
 
 /* line 24, ../scss/atoms/_typography.scss */
@@ -1106,8 +1106,12 @@ nav ul.navigation a li {
 .imagine:after {
   clear: both;
 }
+/* line 173, ../scss/molecules/_layout.scss */
+.imagine div.inner {
+  padding: 1em;
+}
 
-/* line 174, ../scss/molecules/_layout.scss */
+/* line 177, ../scss/molecules/_layout.scss */
 .inspiration-boxes {
   margin-top: 0em;
   padding-top: 1.33333em;
@@ -1115,13 +1119,13 @@ nav ul.navigation a li {
   margin-bottom: 0em;
 }
 @media (max-width: 48em) {
-  /* line 174, ../scss/molecules/_layout.scss */
+  /* line 177, ../scss/molecules/_layout.scss */
   .inspiration-boxes {
     display: none;
   }
 }
 
-/* line 180, ../scss/molecules/_layout.scss */
+/* line 183, ../scss/molecules/_layout.scss */
 .inspiration {
   background: #FF3F46;
   *zoom: 1;
@@ -1151,7 +1155,7 @@ nav ul.navigation a li {
   clear: both;
 }
 @media (max-width: 66em) {
-  /* line 180, ../scss/molecules/_layout.scss */
+  /* line 183, ../scss/molecules/_layout.scss */
   .inspiration {
     *zoom: 1;
     float: left;
@@ -1189,12 +1193,12 @@ nav ul.navigation a li {
     clear: both;
   }
 }
-/* line 187, ../scss/molecules/_layout.scss */
+/* line 190, ../scss/molecules/_layout.scss */
 .inspiration:hover, .inspiration:active {
   background: #FF3F46;
 }
 
-/* line 191, ../scss/molecules/_layout.scss */
+/* line 194, ../scss/molecules/_layout.scss */
 footer {
   text-align: center;
 }
