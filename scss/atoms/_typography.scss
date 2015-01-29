@@ -21,15 +21,19 @@ h2 {
     // }
 }
 
-html {font-size: 1.125em;}
+html {
+	font-size: 1.125em;
+}
 
 body {
   line-height: 1.45;
 }
 
-p {margin-bottom: 1.3em;
-color: $dark-brown;
-font-size: 32px     ;}
+p {
+	margin-bottom: 1.3em;
+	color: $dark-brown;
+	font-size: 32px;
+}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
@@ -72,4 +76,16 @@ a{
 }
 .hype {
 	color: $white;
+}
+.hype-number {
+	font-family: $font-digital;
+	font-size: 300px;
+}
+.hype-label {
+	font-size: 48px;
+}
+.inspiration {
+	color: $white;
+	font-family: $font-secondary;
+	font-weight: bold;
 }

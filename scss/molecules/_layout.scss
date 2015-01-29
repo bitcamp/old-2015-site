@@ -151,15 +151,13 @@ nav {
 .description {}
 .hype {
 	background: $midnight-blue;
-	div {
-		margin: 0 auto;
-	}	
-	div.hype-number {
-		font-family: $font-digital;
-	}
-	div.hype-label {
-		//@include rhythm(0, 0, .5, 0);
-	}
+}
+.hype-number {
+	line-height: .8;
+	padding-left: .1em;
+}
+.hype-label {
+
 }
 .sponsors {
     @include rhythm(0, 1, 3, 0);
@@ -174,7 +172,6 @@ nav {
     @include cf();
 }
 .inspiration-boxes {
-    @include center($max-width, 15em);
     @include rhythm(0, 1, 0, 0);
     @media (max-width: $bp-med-2) {
         display: none;
