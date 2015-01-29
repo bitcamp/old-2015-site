@@ -26,55 +26,7 @@ header {
         @include col(1/6);
     }
 }
-nav {
-	font-size: 18px;
-	@media screen and (min-width: $bp-med-2) {
-		margin-top: 41px;
-		@include col(1/2, $offset: 1/3);
-	}
-	line-height: 1.2;
-    .menu img {
-        float: right;	
-		float: top;
-        height: 3em;
-        width: 3em;
-        @media screen and (min-width: $bp-med-2) {
-            display: none;
-        }
-    }
-    list-style-type: none;
-    ul.mobile-navigation {
-        display: block;
-        background: $bitcamp-orange;
-        @include stack();
-        li {
-            padding-top: 1em;
-            padding-bottom: 1em;
-        }
-        li:hover, li:active {
-            background: lighten($midnight-blue, 20%);
-        }
-        @media screen and (min-width: $bp-med-2) {
-            display: none;
-            visibility: hidden;
-            height: 0px;
-        }
-    }
-    ul.navigation {
-    	font-weight: normal;
-        @include stack();
-        a {
-			display: none;
-			@media screen and (min-width: $bp-med-2) {
-				display: inline-block;
-        		@include col(1/4 1/3);
-			}
-            li {
-            	font-weight: normal;
-            }
-        }
-    }
-}
+
 /*
 .switch {
     display: flex;
@@ -120,14 +72,13 @@ nav {
 		}
 	}
 	.logo {
-		@include span(1);
-		@media screen and (min-width: $bp-small-2) {
-			display: inline-block;
+		display: inline-block;
+		img {
+			height: 75px;
+			width: 75px;
+		}
+		@media (min-width: $bp-small-2) {
 			@include col(1/6);
-			img {
-				height: 75px;
-				width: 75px;
-			}
 		}
 	}
 	
