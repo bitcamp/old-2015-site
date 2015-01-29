@@ -315,80 +315,92 @@ h1, h2, h3, h4 {
 /* line 49, ../scss/atoms/_typography.scss */
 h1 {
   margin-top: 0;
-  font-size: 120px;
+  font-size: 10px;
+}
+@media (min-width: 250px) {
+  /* line 49, ../scss/atoms/_typography.scss */
+  h1 {
+    font-size: 80px;
+  }
+}
+@media (min-width: 860px) {
+  /* line 49, ../scss/atoms/_typography.scss */
+  h1 {
+    font-size: 120px;
+  }
 }
 
-/* line 55, ../scss/atoms/_typography.scss */
+/* line 61, ../scss/atoms/_typography.scss */
 h2 {
   font-size: 1.424em;
   text-transform: lowercase;
 }
 
-/* line 58, ../scss/atoms/_typography.scss */
+/* line 64, ../scss/atoms/_typography.scss */
 h3 {
   font-size: 1.266em;
 }
 
-/* line 60, ../scss/atoms/_typography.scss */
+/* line 66, ../scss/atoms/_typography.scss */
 h4 {
   font-size: 1.125em;
 }
 
-/* line 62, ../scss/atoms/_typography.scss */
+/* line 68, ../scss/atoms/_typography.scss */
 small, .font_small {
   font-size: 0.889em;
 }
 
-/* line 63, ../scss/atoms/_typography.scss */
+/* line 69, ../scss/atoms/_typography.scss */
 a {
   color: #528CA5;
   text-decoration: none;
   font-family: "Avenir Next", "Casper", "Helvetica", sans-serif;
   font-weight: bold;
 }
-/* line 68, ../scss/atoms/_typography.scss */
+/* line 74, ../scss/atoms/_typography.scss */
 a.btn, a.inspiration {
   color: white;
   padding-top: 28px;
   padding-bottom: 28px;
   font-size: 24px;
 }
-/* line 73, ../scss/atoms/_typography.scss */
+/* line 79, ../scss/atoms/_typography.scss */
 a.btn.large, a.large.inspiration {
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 36px;
 }
 
-/* line 80, ../scss/atoms/_typography.scss */
+/* line 86, ../scss/atoms/_typography.scss */
 .header-info {
   font-size: 24px;
 }
 
-/* line 83, ../scss/atoms/_typography.scss */
+/* line 89, ../scss/atoms/_typography.scss */
 .hype {
   color: #fff;
 }
 
-/* line 86, ../scss/atoms/_typography.scss */
+/* line 92, ../scss/atoms/_typography.scss */
 .hype-number {
   font-family: "Imagine", sans-serif;
   font-size: 300px;
 }
 
-/* line 90, ../scss/atoms/_typography.scss */
+/* line 96, ../scss/atoms/_typography.scss */
 .hype-label {
   font-size: 48px;
 }
 
-/* line 93, ../scss/atoms/_typography.scss */
+/* line 99, ../scss/atoms/_typography.scss */
 .inspiration {
   color: #fff;
   font-family: "Lato", "Casper", "Helvetica", sans-serif;
   font-weight: bold;
 }
 
-/* line 99, ../scss/atoms/_typography.scss */
+/* line 105, ../scss/atoms/_typography.scss */
 ul.mobile-navigation li {
   color: #fff;
 }
