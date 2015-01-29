@@ -1,10 +1,11 @@
 .btn{
 	background-color: $bitcamp-orange;
 	border-radius: 4px;
-	@include column(1/2, $offset: 1/4);
-	@media screen and (min-width: $bp-small-2) {
-		// padding: 18px 56px 13px 56px;
+	@include column(1/3, $offset: 1/3);
+	&.large{
+		@include column(1/2, $offset: 1/4);	
 	}
+	
 }
 .btn:hover {
 	background-color: lighten($bitcamp-orange, 5%);

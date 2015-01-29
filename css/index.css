@@ -330,14 +330,14 @@ a {
 /* line 58, ../scss/atoms/_typography.scss */
 a.btn {
   color: white;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   font-size: 24px;
 }
 /* line 63, ../scss/atoms/_typography.scss */
 a.btn.large {
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-size: 36px;
 }
 
@@ -349,8 +349,8 @@ a.btn.large {
   float: left;
   clear: none;
   text-align: inherit;
-  width: 48.93617%;
-  margin-left: 25.53191%;
+  width: 31.91489%;
+  margin-left: 34.04255%;
   margin-right: 2.12766%;
 }
 /* line 344, ../scss/jeet/_grid.scss */
@@ -366,13 +366,36 @@ a.btn.large {
 .btn:last-child {
   margin-right: 0%;
 }
+/* line 5, ../scss/atoms/_button.scss */
+.btn.large {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.93617%;
+  margin-left: 25.53191%;
+  margin-right: 2.12766%;
+}
+/* line 344, ../scss/jeet/_grid.scss */
+.btn.large:before, .btn.large:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../scss/jeet/_grid.scss */
+.btn.large:after {
+  clear: both;
+}
+/* line 58, ../scss/jeet/_grid.scss */
+.btn.large:last-child {
+  margin-right: 0%;
+}
 
-/* line 9, ../scss/atoms/_button.scss */
+/* line 10, ../scss/atoms/_button.scss */
 .btn:hover {
   background-color: #ff835a;
 }
 
-/* line 13, ../scss/atoms/_button.scss */
+/* line 14, ../scss/atoms/_button.scss */
 .btn:active {
   background-color: #528CA5;
 }
