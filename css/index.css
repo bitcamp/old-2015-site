@@ -796,8 +796,9 @@ header ul.social-links {
   padding-top: 1.33333em;
   padding-bottom: 0em;
   margin-bottom: 0em;
+  margin-bottom: 9px;
 }
-/* line 70, ../scss/molecules/_header.scss */
+/* line 71, ../scss/molecules/_header.scss */
 .header-info .logo img {
   height: 75px;
   width: 75px;
@@ -833,7 +834,7 @@ header ul.social-links {
 }
 
 @media (min-width: 580px) {
-  /* line 81, ../scss/molecules/_header.scss */
+  /* line 82, ../scss/molecules/_header.scss */
   .header-tagline {
     margin-top: 0em;
     padding-top: 4em;
