@@ -33,3 +33,38 @@
 	}
 	
 }
+.partners {
+	@include center($bp-med-2);
+	li {
+		display: inline-block;
+	}
+	img {
+		vertical-align: middle;
+		@include rhythm(1, 0, 0, 0);
+		margin-left: .5em;
+		margin-right: .5em;
+	}
+}
+.partners-lvl1 {
+	img {
+		height: 6em;
+	}
+}
+.partners-lvl2 {
+	img {
+		height: 5em;
+		margin: 0;
+	}
+}
+.partners-lvl3 {
+	img {
+		height: 4em;
+	}
+	
+}
+.partners-lvl4 {
+	img {
+		height: 4em;
+	}
+	
+}

@@ -42,6 +42,9 @@
 .sponsors {
     @include rhythm(0, 1, 3, 0);
 }
+.partners{
+	@extend .sponsors;
+}
 .photos {
     overflow: hidden;
     img {
