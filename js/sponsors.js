@@ -108,16 +108,16 @@ $.getJSON("json/partners.json", function(data) {
         level = data[index]["level"];
         switch(level) {
             case 1:     
-                $(".partners>.sponsors-lvl1").append(sponsorElement.format(link, photo, name));
+                $(".partners>.partners-lvl1").append(sponsorElement.format(link, photo, name));
                 break;
             case 2:     
-                $(".partners>.sponsors-lvl2").append(sponsorElement.format(link, photo, name));
+                $(".partners>.partners-lvl2").append(sponsorElement.format(link, photo, name));
                 break;  
             case 3:     
-                $(".partners>.sponsors-lvl3").append(sponsorElement.format(link, photo, name));
+                $(".partners>.partners-lvl3").append(sponsorElement.format(link, photo, name));
                 break;  
             case 4:     
-                $(".partners>.sponsors-lvl4").append(sponsorElement.format(link, photo, name));
+                $(".partners>.partners-lvl4").append(sponsorElement.format(link, photo, name));
                 break;  
         }   
         
