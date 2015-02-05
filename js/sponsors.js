@@ -94,7 +94,32 @@ $.getJSON("json/sponsors.json", function(data) {
 			case 4:		
 				$(".sponsors-lvl4").append(sponsorElement.format(link, photo, name));
 				break;	
-		}	
-		
-	});
+        }   
+        
+    });
+});
+
+$.getJSON("json/partners.json", function(data) {
+    console.log(data);
+    $.each(data, function(index) {
+        link = data[index]["link"];
+        photo  = data[index]["photo"];
+        name = data[index]["name"];
+        level = data[index]["level"];
+        switch(level) {
+            case 1:     
+                $(".partners>.sponsors-lvl1").append(sponsorElement.format(link, photo, name));
+                break;
+            case 2:     
+                $(".partners>.sponsors-lvl2").append(sponsorElement.format(link, photo, name));
+                break;  
+            case 3:     
+                $(".partners>.sponsors-lvl3").append(sponsorElement.format(link, photo, name));
+                break;  
+            case 4:     
+                $(".partners>.sponsors-lvl4").append(sponsorElement.format(link, photo, name));
+                break;  
+        }   
+        
+    });
 });
