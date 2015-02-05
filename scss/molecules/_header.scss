@@ -8,13 +8,19 @@ header {
     @include cf();
     @include center($max-width, .5em);
     div.name {
-    	h2{
+    	img {
+			margin-top: 10px;
 			@media screen and (min-width: $bp-med-2) {
-    			margin-top: 35px;
+    			margin-top: 31px;
 			}
     		font-size: 24px;
+			display: block;
+			width: 100%;
     	}
-        @include col(1/6);
+        //@include col(1/6);
+		width:128.667px;
+		display: inline-block;
+		float: left;
     }
 }
 
