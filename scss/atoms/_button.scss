@@ -1,4 +1,4 @@
-.btn{
+	.btn{
 	@include transition-duration($duration);
 	background-color: $bitcamp-orange;
 	border-radius: 4px;
@@ -10,7 +10,7 @@
 		@include column(1/3, $offset: 1/3);
 	}
 	&.large{
-		@include column(1/2, $offset: 1/4);	
+		@include span(1/2, $offset: 1/4);	
 	}
 	
 }
