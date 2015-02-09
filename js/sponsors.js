@@ -75,7 +75,6 @@ if (!String.prototype.format) {
 sponsorElement = '<li><a href="{0}"><img src="{1}" alt="{2}"></a></li>'
 
 $.getJSON("json/sponsors.json", function(data) {
-	console.log(data);
 	$.each(data, function(index) {
 		link = data[index]["link"];
 		photo  = data[index]["photo"];
@@ -100,7 +99,6 @@ $.getJSON("json/sponsors.json", function(data) {
 });
 
 $.getJSON("json/partners.json", function(data) {
-    console.log(data);
     $.each(data, function(index) {
         link = data[index]["link"];
         photo  = data[index]["photo"];
