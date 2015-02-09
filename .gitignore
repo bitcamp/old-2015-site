@@ -3,6 +3,7 @@
 .sass-cache/*
 .sass-cache/
 *.swp
+*.swo
 *.scss~
 *.js~
 *.html~
