@@ -5,6 +5,7 @@
 *.swp
 *.scss~
 *.js~
+*.html~
 .sass-cache/3a56298731a5c4bfb0b40846d12be6123eb03f23/_header.scssc
 *.scssc
 *.scssc
