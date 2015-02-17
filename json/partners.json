@@ -1,19 +1,19 @@
 [{
         "name": "Startup Shell",
         "photo": "img/partners/startup-shell.svg",
-        "link": "https://www.startupshell.org/",
+        "link": "http://startupshell.org/",
         "level": 1
     },
 
     {
         "name": "Terrapins Hackers",
-        "photo": "img/partners/terrapin-hackers.svg",
+        "photo": "img/partners/roboto_icon.png",
         "link": "http://www.terrapinhackers.com/",
         "level": 1
     }, {
         "name": "Major League Hacking",
         "photo": "img/partners/mlh.svg",
-        "link": "https://www.mhl.io/",
+        "link": "http://www.mlh.io/",
         "level": 1
     }, {
         "name": "Neelbauer Law",
