@@ -16,43 +16,6 @@
         "link": "https://www.mhl.io/",
         "level": 1
     }, {
-        "name": "A. James Clark School of Engineering",
-        "photo": "img/partners/clark.svg",
-        "link": "http://www.eng.umd.edu/",
-        "level": 2
-    },
-
-    {
-        "name": "College of CMNS",
-        "photo": "img/partners/cmns.svg",
-        "link": "http://cmns.umd.edu/",
-        "level": 2
-    }, {
-        "name": "College of BSOS",
-        "photo": "img/partners/bsos.svg",
-        "link": "http: //bsos.umd.edu/",
-            "level": 2
-    }, {
-        "name": "Department of ECE",
-        "photo": "img/partners/ece.svg",
-        "link": "http://www.ece.umd.edu/",
-        "level": 2
-    }, {
-        "name": "Computer Science Department",
-        "photo": "img/partners/cs.svg",
-        "link": "http://cs.umd.edu/",
-        "level": 3
-    }, {
-        "name": "UMIACS",
-        "photo": "img/partners/umiacs.svg",
-        "link": "http://www.umiacs.umd.edu/",
-        "level": 3
-    }, {
-        "name": "Mid-Atlantic Crossroads",
-        "photo": "img/partners/max.svg",
-        "link": "http://www.maxgigapop.net/",
-        "level": 3
-    }, {
         "name": "Neelbauer Law",
         "photo": "img/partners/neelbauer.svg",
         "link": "http://www.neelbauerlaw.com/",
